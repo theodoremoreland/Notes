@@ -144,6 +144,11 @@ Services
 
     Analytics
         Athena
+            AWS Athena is an interactive query service which enables you to analyze and query data located in S3 using standard SQL.
+            Serverless, pay per query / per TB scanned
+            No complex ETL
+            Works directly with data in S3
+
         EMR
         CloudSearch
         Elasticsearch Service
@@ -163,6 +168,10 @@ Services
         GuardDuty
         Inspector
         Amazon Macie
+            (for PII - personally identifiable information)
+            Use machine learning and NLP to discover, classify, and protect sensitive data stored in S3
+            Dashboards (report / analytics)
+
         AWS Single Sign-On
         Certificate Manager
         Key Management Service
