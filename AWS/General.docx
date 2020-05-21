@@ -1,0 +1,321 @@
+Cloud Computing Model
+    IAAS (Infastructure as a service)
+        Choose the hardware, operating system, network (e.g. VPC, Ec2, EBS)
+
+    PAAS (Platform as a service)
+        Manage application
+        (e.g. RDS, EMR, ElasticSearch)
+
+    FAAS (Function as a service /  Abstract services)
+        Provides server functionality without having to manage server
+        Examples: Lambda, S3, DynamoDB, SNS
+
+    SAAS (Software as a service)
+        A complete application for end users (e.g. gmail, salesforce.com, creative cloud)
+
+
+
+(Geographic) Regions
+    Availability Zones (two or more)
+        Edge Locations (CloudFront CDN)
+
+Geographic Regions
+    Example: AWS GovCloud (US-West, Secret)
+    Choose based on needs. Consider latency, costs, regulations, and services.
+    Broken up into at least two Availability Zones
+    Largest region is/ was US-East N. Virginia (seven AZs)
+
+Availability Zones
+    Example: TBD
+    Physically isolated server locations
+    Connected via high speed fiber optics
+    If one location fails, AWS will connect to another (Fault tolerance)
+
+Edge Locations
+    100+ locations
+    Caches content for high speed delivery to users
+    Provides DDOS protection
+
+
+SDKs, CLI Access, and AWS API
+    SDKs (Python, Node, Java, .NET, PHP, Ruby, Go, C++, iOS, Andriod, React Native, Unity, Xamarin, etc)
+        SDKs use http calls
+
+Always free (Free tier)
+    Amazon DynamoDB
+        25 GB
+        of storage
+    AWS Lambda
+        1 Million
+        free requests per month
+    Amazon SNS
+        1 Million
+        publishes
+    Amazon CloudWatch
+        10
+        custom metrics and alarms
+    Amazon Chime
+        Basic
+        unlimited use
+    Amazon Cognito
+        50,000
+        MAUs each month
+        Mobile user identity and synchronization.
+    Amazon Glacier (Glacier API only)
+        10 GB
+        of storage retrievals
+    Amazon Macie
+        1 GB
+        processed by the content classification engine
+    Amazon SES
+        62,000
+        outbound messages per month
+    Amazon SQS
+        1 Million
+        requests
+    Amazon SWF
+        10,000
+        activity tasks
+    AWS CodeBuild
+        100 build minutes
+    AWS CodeCommit
+        5
+        active users per month
+    AWS CodePipeline
+        1
+        active pipeline per month
+    AWS Database Migration Service
+        750 Hours
+        of Amazon DMS Single-AZ dms.t2.micro instance usage
+    AWS Glue
+        1 Million objects stored in the AWS Glue Data Catalog
+    AWS Key Management Service
+        20,000 free requests per month
+    AWS License Manager
+        Unlimited
+    Storage Gateway
+        First 100 GB per account is free
+    Step Functions
+        4,000 state transitions per month
+    X-Ray
+        100,000 traces recorded per month
+    AWS Well-Architected Tool
+        Unlimited
+    https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc
+        
+
+Deployment Options
+    All at once
+    Rolling (a batch at a time), Rolling with additional batch.
+    Immutable, two environments temporarily.
+    Blue - Green
+
+
+Services
+    Storage (Tentative)
+        Simple Storage Service (S3) - FAAS
+            Storage Classes
+
+        Glacier - FAAS
+        Elastic Block Storage (EBS) - ???
+            A block of storage for AWS server
+        Elastic File System (EFS) - ???
+                Network mounting file storage (EFS share and EFS mount targets)
+        Storage Gateway - ???
+        Snowball
+            Physical device for uploading HUGE amounts of data (up to petabytes)
+
+    Database
+        RDS (MairaDB, Aurora, MySQL, PostgreSQL, Microsoft SQL Server, Oracle)
+        DynamoDB
+            Serveless
+            NoSQL
+            High speed, Low latency
+        RedShift
+            Petabyte scale data warehouse
+            Based on PostgreSQL engine
+        ElasticCache
+            In memory access as opposed to on disk
+            Can put a node in front of RDS instance to cache frequently accessed data
+        Database Migration Services (DMS)
+        Neptune
+            Graph database
+            Billions of relationships
+            ms latency for graph queries
+
+    Compute
+        EC2
+        Lightsail
+        Lambda
+        Batch
+        Elastic Beanstalk
+        Serverless Application Repository
+        AWS Outposts
+        EC2 Image Builder
+
+    Networking & Content Delivery 
+        VPC
+        CloudFront
+        Route 53
+        API Gateway - FAAS
+        Direct Connect
+        AWS App Mesh
+        AWS Cloud Map
+        Global Accelerator
+
+    Management & Governance 
+        AWS Organizations
+        CloudWatch
+            Billing Alerts
+        AWS Auto Scaling
+        CloudFormation
+        CloudTrail
+        Config
+        OpsWorks
+        Service Catalog
+        Systems Manager
+        AWS AppConfig
+        Trusted Advisor
+        Control Tower
+        AWS License Manager
+        AWS Well-Architected Tool
+        Personal Health Dashboard
+        AWS Chatbot
+        Launch Wizard
+        AWS Compute Optimizer
+
+    Application Integration
+        Step Functions
+        Amazon AppFlow
+        Amazon EventBridge
+        Amazon MQ
+        Simple Notification Service
+        Simple Queue Service
+        SWF
+
+    Customer Engagement
+        Amazon Connect
+        Pinpoint
+        Simple Email Service
+
+    Analytics
+        Athena
+        EMR
+        CloudSearch
+        Elasticsearch Service
+        Kinesis
+        QuickSight
+        Data Pipeline
+        AWS Data Exchange
+        AWS Glue
+        AWS Lake Formation
+        MSK
+
+    Security, Identity, & Compliance 
+        IAM
+        Resource Access Manager
+        Cognito
+        Secrets Manager
+        GuardDuty
+        Inspector
+        Amazon Macie
+        AWS Single Sign-On
+        Certificate Manager
+        Key Management Service
+        CloudHSM
+        Directory Service
+        WAF & Shield
+        AWS Firewall Manager
+        Artifact
+        Security Hub
+        Detective
+    
+    Developer Tools 
+        CodeStar
+        CodeCommit
+        CodeBuild
+        CodeDeploy
+        CodePipeline
+        Cloud9
+            Web browser based IDE for Ec2.
+            Drag and drop files
+            Share IDE for pair programming
+            AWS CLI and 40+ programming languages pre-installed.
+        X-Ray
+
+    End User Computing 
+        WorkSpaces
+        AppStream 2.0
+        WorkDocs
+        WorkLink
+
+    Internet of Things 
+        IoT Core
+        FreeRTOS
+        IoT 1-Click
+        IoT Analytics
+        IoT Device Defender
+        IoT Device Management
+        IoT Events
+        IoT Greengrass
+        IoT SiteWise
+        IoT Things Graph
+
+    Game Development
+        Amazon GameLift
+
+General vocabulary
+    Elasticity - The ability to automatically scale only when necessary.
+    Scalibility - The ability to add, remove, upgrade, or downgrade resources to optimze performance or cost.
+    Elastic vs Scalable - Scalable systems CAN change to meet demands, elastic systems WILL change.
+    Elastic Load Balancers - 
+    Auto Scaling Groups -
+
+Initialisms
+    EC2 (Elastic Cloud Compute)
+    S3 (Simple Storage Service)
+    EFS (Elastic File System)
+    FSx (File system x ???)
+    RDS (Relation Database Service)
+    QLDB (Quantum Ledger Database)
+    VPC (Virtual Private Cloud)
+    EMR (Elastic MapReduce)
+    MSK (Managed Streaming for Kafka)
+    IAM (Identity and Access Management)
+    WAF (Web Application Firewall)
+    MQ (Messaging Queue)
+    SWF (Simple Workflow Service)
+    IoT (Internet of Things)
+    (ECR) Elastic Container Registry
+    (ECS) Elastic Container Service
+    (EKS) Elastic Kubernetes Service
+
+
+
+What you should review
+What are the main cost components of AWS TCO Analysis?
+What is not a feature of RDS (excluding Aurora)?
+How can you ensure SQS messages are delivered in order?
+What is a CloudFormation stack?
+What is not a security best practice?
+You would like to decouple your application components from demand. What service would you use?
+Your users keep forgetting the account ID for logging in to the console. How can you help them?
+A _________ tells Auto Scaling when and much to scale. You can create a _________  based on the occurrence of specified conditions (dynamic scaling) or you can create one based on a specific schedule.
+CloudWatch free monitoring for EC2 is at ________ intervals.
+You can use Amazon ________ to monitor, store, and access your log files from Amazon Elastic Compute Cloud (Amazon EC2) instances, AWS CloudTrail, Route 53, and other sources. You can then retrieve the associated log data from _________.
+You connect to your EC2 Windows instance using SSH.
+It is best practice to use the instance store available for your EC2 instance to store temporary data.
+An EC2 security group acts as a firewall that controls the traffic allowed to reach one or more instances.
+You have an application that requires ad-hoc data mining and analytics of manufacturing data. What is best suited for this application?
+When Multi-AZ is enabled on RDS, the standby replica instance will be located in a different region.
+Security groups operate at the subnet level and evaluate traffic entering and exiting a subnet.
+What are the five groups of checks conducted by AWS Trusted Adviser?
+What does elasticity mean to AWS?
+With _________, you can send transactional email, marketing messages, or any other type of high-quality content and you only pay for what you use.
+Company B provides an online image recognition service and utilizes SQS to decouple system components for scalability The SQS consumers poll the imaging queue as often as possible to keep end-to-end throughput as high as possible. However, Company B is realizing that polling in tight loops is burning CPU cycles and increasing costs with empty responses. How can Company B reduce the number of empty responses?
+In the shared responsibility model, updates and security patches to EC2 instances is the responsibility of AWS.
+Availability Zones are:
+Each Amazon EC2 ______ is designed to be completely isolated from the other Amazon EC2 ______. This achieves the greatest possible fault tolerance and stability. When you view your resources, you'll only see the resources tied to the _____ you've specified.
+AWS _________ connects an on-premises software appliance with cloud-based storage to provide seamless integration with data security features between your on-premises IT environment and the Amazon Web Services (AWS) storage infrastructure.
+Automated backups are enabled by default for RDS instances.
+What licensing options are available for RDS Oracle?
