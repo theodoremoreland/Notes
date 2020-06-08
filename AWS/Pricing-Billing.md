@@ -21,6 +21,14 @@ Drivers of cost
 Start early with optimization lest cost spiral out of control
 Maximize the power of flexibility
 
+Budgets
+
+    you can further specify the percent accrual toward the cost or usage threshold. For example, specifying 100%    the actual costs of a $1,000 budget will alert you when the $1,000 threshold is exceeded.
+
+    You can also supplement these alerts by setting one against forecasted cost or usage values (e.g., 105% of your budgeted value), which will alert you of possible anomalies or changes in behavior.
+
+    Each budget can have up to 5 associated alerts. Each alert can have up to 10 email subscribers and can optionally be published to an SNS topic
+
 What determines price?
 	Clock hours
     Instance type

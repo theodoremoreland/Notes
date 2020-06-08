@@ -1,12 +1,26 @@
 Definitions
-    access control list (ACL) - A document that defines who can access a particular bucket or object. Each bucket and object in Amazon S3 has an ACL. The document defines what each type of user can do, such as write and read permissions.
+    Access Control List (ACL) - A document that defines who can access a particular bucket or object. Each bucket   and object in Amazon S3 has an ACL. The document defines what each type of user can do, such as write and read permissions.
+
+    Total Cost of Ownership (TCO) - 
+        Total cost of ownership (TCO) is an analysis that places a single value on the complete life-cycle of a capital purchase. This value includes every phase of ownership: acquisition, operation, and the softer costs of change management that flows down from acquisition such as documentation and training.
+
+        There are three core components to Total Cost of Ownership/TCO calculations:
+            Acquisition/Physical Hardware Costs
+            Operating Costs
+            Personnel Costs
+
     Elasticity - The ability to automatically scale only when necessary.
-    Scalibility - The ability to add, remove, upgrade, or downgrade resources to optimze performance or cost.
+
+    Scalability - The ability to add, remove, upgrade, or downgrade resources to optimize performance or cost.
+
     Elastic vs Scalable - Scalable systems CAN change to meet demands, elastic systems WILL change.
+
     Elastic Load Balancers - 
         Network load balancer operate at layer 4
         Application load balancer operates on level 7 only.
+
     Auto Scaling Groups -
+
     CDN Networks -
             Edge locations - where content is cached.
             Origin - the origin of all the files that the cdn will distribute.
@@ -14,16 +28,18 @@ Definitions
             Web distribution - typically for websites
             RTMP - used for media streaming
             Objects are timed to TTL (time to live)
+
     CIDR block
         Classless Inter-Domain Routing. An internet protocol address allocation and route aggregation methodology.
         See also Classless Inter-Domain Routing in Wikipedia.
 
 
 Initialisms
+    TCO (Total Cost of Ownership)
     ACM (AWS Certificate Manager)
     AMI (Amazon Machine Image)
-    ARN Amazon Resource Name
-    customer master key (CMK) 
+    ARN (Amazon Resource Name)
+    CMK (Customer Master Key) 
     EC2 (Elastic Cloud Compute)
     S3 (Simple Storage Service)
     EFS (Elastic File System)

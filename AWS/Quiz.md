@@ -37,28 +37,79 @@ ____________________________________________________________________________
 
 
 What are the main cost components of AWS TCO Analysis?
+    Acquisition / Physical hardware / Capital Expenditure
+    Operation Costs
+    Maintainance / Personnel
+
+
 What is not a feature of RDS (excluding Aurora)?
+
+
 How can you ensure SQS messages are delivered in order?
+
+
 What is a CloudFormation stack?
+
+
 What is not a security best practice?
+
+
 You would like to decouple your application components from demand. What service would you use?
+
+
 Your users keep forgetting the account ID for logging in to the console. How can you help them?
-A _________ tells Auto Scaling when and much to scale. You can create a _________  based on the occurrence of specified conditions (dynamic scaling) or you can create one based on a specific schedule.
+
+
+A _________ tells Auto Scaling when and how much to scale. You can create a _________  based on the occurrence of specified conditions (dynamic scaling) or you can create one based on a specific schedule.
+
+
 CloudWatch free monitoring for EC2 is at ________ intervals.
+
+
 You can use Amazon ________ to monitor, store, and access your log files from Amazon Elastic Compute Cloud (Amazon EC2) instances, AWS CloudTrail, Route 53, and other sources. You can then retrieve the associated log data from _________.
+
+
 You connect to your EC2 Windows instance using SSH.
+    No?
+
+
 It is best practice to use the instance store available for your EC2 instance to store temporary data.
+
+
 An EC2 security group acts as a firewall that controls the traffic allowed to reach one or more instances.
+
+
 You have an application that requires ad-hoc data mining and analytics of manufacturing data. What is best suited for this application?
+
+
 When Multi-AZ is enabled on RDS, the standby replica instance will be located in a different region.
+
+
 Security groups operate at the subnet level and evaluate traffic entering and exiting a subnet.
+
+
 What are the five groups of checks conducted by AWS Trusted Adviser?
+
+
 What does elasticity mean to AWS?
+
+
 With _________, you can send transactional email, marketing messages, or any other type of high-quality content and you only pay for what you use.
+
 Company B provides an online image recognition service and utilizes SQS to decouple system components for scalability The SQS consumers poll the imaging queue as often as possible to keep end-to-end throughput as high as possible. However, Company B is realizing that polling in tight loops is burning CPU cycles and increasing costs with empty responses. How can Company B reduce the number of empty responses?
+
 In the shared responsibility model, updates and security patches to EC2 instances is the responsibility of AWS.
+
 Availability Zones are:
+
+
 Each Amazon EC2 ______ is designed to be completely isolated from the other Amazon EC2 ______. This achieves the greatest possible fault tolerance and stability. When you view your resources, you'll only see the resources tied to the _____ you've specified.
+
+
 AWS _________ connects an on-premises software appliance with cloud-based storage to provide seamless integration with data security features between your on-premises IT environment and the Amazon Web Services (AWS) storage infrastructure.
+
+
 Automated backups are enabled by default for RDS instances.
+
+
 What licensing options are available for RDS Oracle?
