@@ -1,0 +1,11 @@
+
+ls (list):
+	-a (all)
+	-h (hidden)
+	-l (long)
+	-R (recursive)
+	--color=always (color coat types of files)
+
+find (find file):
+	- find {dir/path} {option} "{filename}"
+	  (e.g. find . -name "notes.txt")

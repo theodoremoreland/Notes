@@ -1,0 +1,65 @@
+
+--------------------------------------------------------------------
+
+Cancel command:
+	Crtl + C
+
+Jump to beginning or end of line:
+	Ctrl + A (beg), Crtl + E (end)
+
+Move by one word:
+	Crtl + left / right arrow
+
+Delete all from cursor:
+	Crtl + U (remove from cursor to start)
+	Crtl + K (remove from cursor to end)
+
+Escape spaces:
+	wrap test in double quotes
+	precede space with backslash
+---------------------------------------------------------------
+
+Copy and paste:
+	Crtl + Shift + C (Copy to clipboard)
+	Crtl + Shift + V (Paste from clipboard)
+	Crtl + Y (Paste cropped text)
+
+Search command history:
+	Ctrl + R (do twice to cycle between matches)
+
+Travel command history:
+	up / down
+
+
+-------------------------------------------------------------
+
+Find commands (apropos) by description:
+	apropos + "{description}"
+	(e.g. apropos "list")
+
+Manual for a command:
+	man {space} {command}
+	(e.g. man ls)
+
+
+----------------------------------------------------------------
+
+Determine type of file:
+	file {space} {filename}
+	(e.g. file myFile.txt)
+
+Display ownership, modification information, etc:
+	stat {space} {filename}
+	(e.g. stat myFile.txt)
+	
+-------------------------------------------------------------------
+
+Print text
+	echo {text}
+	echo "${variable}"
+Print contents of file
+	cat {path/to/file}
+Append text to file
+	{text/variable} >> {path/to/file}
+Replace all text in file
+	{text/variable} > {path/to/file}
