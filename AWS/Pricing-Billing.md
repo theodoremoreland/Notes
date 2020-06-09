@@ -1,9 +1,9 @@
---- Look into Capex vs Opex ---
+--- Look into Capex vs Opex / Variable Expense ---
 
 Support plans
     Basic - Free
     Developer $29 /month
-    Business $100 /month
+    Business $100 /month Trusted Advisor
     Enterprise $15,000 /month (TAM)
 
 Pricing policies:
@@ -20,6 +20,11 @@ Drivers of cost
 
 Start early with optimization lest cost spiral out of control
 Maximize the power of flexibility
+
+Billing Alerts can disperse a notification (e.g. email) once your AWS cost reach a certain point, but as of
+(6/8/2020) Billing Alerts must be enabled via the Billing Dashboard's "Billing Preferences". Billing Alarms
+for spending on the entire account are not enabled by default, despite being able to "create" them on the
+CloudWatch console.
 
 Budgets
 

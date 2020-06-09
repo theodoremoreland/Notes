@@ -69,3 +69,73 @@ Deployment Options
     Rolling (a batch at a time), Rolling with additional batch.
     Immutable, two environments temporarily.
     Blue - Green
+
+The pillars of the AWS Well-Architected Framework
+
+Operational Excellence - The ability to run and monitor systems to deliver business value and to continually improve supporting processes and procedures.
+
+Security - The ability to protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies.
+
+Reliability The ability of a system to recover from infrastructure or service disruptions, dynamically acquire computing resources to meet demand, and mitigate disruptions such as misconfigurations or transient network issues.
+
+Performance Efficiency - The ability to use computing resources efficiently to meet system requirements, and to maintain that efficiency as demand changes and technologies evolve.
+
+Cost Optimization - The ability to run systems to deliver business value at the lowest price point.
+
+
+Each AWS CAF Perspective is made up of a set of CAF Capabilities, which is a
+composite of responsibilities typically owned or managed by one or more
+functionally related stakeholders. Each Capability describes “what” a
+stakeholder owns or manages in the cloud adoption journey. The Capabilities
+are a standard used within the CAF. Each Capability consists of a set of CAF
+Skills and Processes that provide structure to identify gaps in your existing skills
+and processes. For example, the People Perspective provides guidance for
+stakeholders who own or manage human resources (HR), staffing functions,
+and people management responsibilities. The guidance in this Perspective
+focuses on people development, training, and communications to assess how
+stakeholder-owned or -managed capabilities will transform with cloud
+adoption.
+In general, the Business, People, and Governance Perspectives focus on
+business capabilities, and the Platform, Security, and Operations Perspectives
+focus on technical capabilities. A brief description of each AWS CAF Perspective
+is provided here, with more detailed descriptions later in this whitepaper.
+ Business Perspective – Common roles: Business Managers, Finance
+Managers, Budget Owners, and Strategy Stakeholders.
+Helps stakeholders understand how to update the staff skills and
+organizational processes they will need to optimize business value as
+they move their operations to the cloud.
+ People Perspective – Common roles: Human Resources, Staffing, and
+People Managers.
+Provides guidance for stakeholders responsible for people development,
+training, and communications. Helps stakeholders understand how to 
+Amazon Web Services – An Overview of the AWS Cloud Adoption Framework
+Page 3
+update the staff skills and organizational processes they will use to
+optimize and maintain their workforce, and ensure competencies are in
+place at the appropriate time.
+ Governance Perspective – Common roles: CIO, Program Managers,
+Project Managers, Enterprise Architects, Business Analysts, and
+Portfolio Managers.
+Provides guidance for stakeholders responsible for supporting business
+processes with technology. Helps stakeholders understand how to
+update the staff skills and organizational processes that are necessary to
+ensure business governance in the cloud, and manage and measure
+cloud investments to evaluate their business outcomes.
+ Platform Perspective – Common roles: CTO, IT Managers, and
+Solution Architects.
+Helps stakeholders understand how to update the staff skills and
+organizational processes that are necessary to deliver and optimize cloud
+solutions and services.
+ Security Perspective – Common roles: CISO, IT Security Managers,
+and IT Security Analysts.
+Helps stakeholders understand how to update the staff skills and
+organizational processes that are necessary to ensure that the
+architecture deployed in the cloud aligns to the organization’s security
+control requirements, resiliency, and compliance requirements.
+ Operations Perspective – Common roles: IT Operations Managers
+and IT Support Managers.
+Helps stakeholders understand how to update the staff skills and
+organizational processes that are necessary to ensure system health and
+reliability during the move of operations to the cloud and then to operate
+using agile, ongoing, cloud computing best practices.
+
