@@ -1,6 +1,6 @@
 --- Look into Capex vs Opex / Variable Expense ---
 
-Support plans
+Support plans (all get billing support)
     Basic
         Free
         Support forums
@@ -100,7 +100,9 @@ What determines price?
     Detailed monitoring
     Auto scaling
     Elastic IP Addresses
-    Operating Systems and Software …..
+    Operating Systems and Software
+
+
 Figure out what determines the price for Lambda--
 Figure out what determines the price for EBS--
 	Volumes
@@ -137,6 +139,7 @@ Dynamo
     Write
     Read
     Amount of data stored
+    
 Cloudfront
     Number of requests
     Traffic distribution

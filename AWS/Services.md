@@ -15,39 +15,7 @@ On premise services:
 
 Services
     Storage (Tentative)
-        Simple Storage Service (S3) - FAAS
-            // S3 Is not a global service.
-            // S3 standard
-            // S3 - IA
-            // S3 One Zone - IA
-            // Intelligent Tiering
-            // S3 Glacier and S3 Glacier Deep Archive
-            Object-based storage / file based
-            Objects consist of a key / name and value / data
-            Can apply policies to buckets / folders and objects / files
-            Can limit access via IAM policies and 
-            Tiered storage
-            Lifecycle management
-            Versioning
-            Encrypting
-            Bucket policies
-            Built for 99.99% but promises only 99% availability and (11X9s durability)
-            Read after write consistency for puts of new objects, not applicable when trying to read changes to existing files (i.e. delete or update)
-            Eventual consistency = 
-            Version id
-            Metadata
-            Access control list
-            Torrent
-            Spread across multiple facilities
-            File can be 0 bytes to 5tb
-            Unlimited storage
-            Universal namespace
-            Url always starts with s3 and ends with amazonaws.com (sort of)
-            HTTP 200 if successful upload
 
-
-
-        Glacier - FAAS
         Elastic Block Storage (EBS) - ???
             A block of storage for AWS server
             SSD (general purpose SSD, provisioned iops SSD)
