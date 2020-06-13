@@ -159,6 +159,7 @@ Services
         CodePipeline
         Cloud9
             Web browser based IDE for Ec2.
+            Update code in real time (like saving to local machine via local IDE)
             Drag and drop files
             Share IDE for pair programming
             AWS CLI and 40+ programming languages pre-installed.
@@ -184,3 +185,109 @@ Services
 
     Game Development
         Amazon GameLift
+
+
+Always free (Free tier)
+    Amazon DynamoDB
+        25 GB
+        of storage
+    AWS Lambda
+        1 Million
+        free requests per month
+    Amazon SNS
+        1 Million
+        publishes
+    Amazon CloudWatch
+        10
+        custom metrics and alarms
+    Amazon Chime
+        Basic
+        unlimited use
+    Amazon Cognito
+        50,000
+        MAUs each month
+        Mobile user identity and synchronization.
+    Amazon Glacier (Glacier API only)
+        10 GB
+        of storage retrievals
+    Amazon Macie
+        1 GB
+        processed by the content classification engine
+    Amazon SES
+        62,000
+        outbound messages per month
+    Amazon SQS
+        1 Million
+        requests
+    Amazon SWF
+        10,000
+        activity tasks
+    AWS CodeBuild
+        100 build minutes
+    AWS CodeCommit
+        5
+        active users per month
+    AWS CodePipeline
+        1
+        active pipeline per month
+    AWS Database Migration Service
+        750 Hours
+        of Amazon DMS Single-AZ dms.t2.micro instance usage
+    AWS Glue
+        1 Million objects stored in the AWS Glue Data Catalog
+    AWS Key Management Service
+        20,000 free requests per month
+    AWS License Manager
+        Unlimited
+    Storage Gateway
+        First 100 GB per account is free
+    Step Functions
+        4,000 state transitions per month
+    X-Ray
+        100,000 traces recorded per month
+    AWS Well-Architected Tool
+        Unlimited
+    https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc
+
+
+Figure out what determines the price for Lambda--
+Figure out what determines the price for EBS--
+	Volumes
+	Snapshots
+	Data transfer
+Figure of what determines the price for S3--
+	Storage class
+	Storage
+	Requests
+	Data transfer
+Figure out what determines the price for Glacier
+	Storage
+	Data retrieval time
+
+What is Snowball?
+	A PB scale data transfer system… figure it out
+
+    What determines the price for Snowball?
+        Service fee per job
+        Daily charge
+        Data transfer
+        Price RDS
+        Clock hours
+        Characteristic
+        Purchase types
+        Number of instances
+        Provisional storage
+        Additional storage
+        Requests
+        Deployment type
+        Data transfer
+
+Dynamo
+    Write
+    Read
+    Amount of data stored
+    
+Cloudfront
+    Number of requests
+    Traffic distribution
+    Data transfer out

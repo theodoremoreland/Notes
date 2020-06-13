@@ -33,6 +33,10 @@ Definitions
         Classless Inter-Domain Routing. An internet protocol address allocation and route aggregation methodology.
         See also Classless Inter-Domain Routing in Wikipedia.
 
+Acronyms
+    Capex (Capital Expenditure)
+    Opex (Operational Expenditure)
+
 
 Initialisms
     TCO (Total Cost of Ownership)
