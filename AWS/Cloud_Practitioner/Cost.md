@@ -19,7 +19,7 @@ Support Plans (all get billing support)
         System impaired = less than 12 [all] hours
         Production system impaired = less than 4 [all] hours
         Production system down = less than 1 [all] hours
-        Trusted Advisor
+        Trusted Advisor?
 
     Enterprise
         $15,000 /month
@@ -30,6 +30,7 @@ Support Plans (all get billing support)
         Production system down = less than 1 [all] hours
         Business critical system down = less than 15 [all] minutes
         Technical Account Manager (TAM)
+        Concierge?
 
 
 Pricing Tools

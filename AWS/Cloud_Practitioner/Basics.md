@@ -37,7 +37,7 @@ Cloud Computing Model(s)
 
     PAAS (Platform as a service)
         Manage application
-        (e.g. RDS, EMR, ElasticSearch)
+        (e.g. RDS, EMR, ElasticSearch, Elastic Beanstalk)
 
     FAAS (Function as a service /  Abstract services)
         Provides server functionality without having to manage server
