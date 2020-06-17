@@ -1,6 +1,13 @@
 Definitions
+
+    Bucket Policiy
+
+    Resource Group
+
     Access Control List (ACL)
         A document that defines who can access a particular bucket or object. Each bucket   and object in Amazon S3 has an ACL. The document defines what each type of user can do, such as write and read permissions.
+
+    Network Control List
 
     Total Cost of Ownership (TCO) 
         Total cost of ownership (TCO) is an analysis that places a single value on the complete life-cycle of a capital purchase. This value includes every phase of ownership: acquisition, operation, and the softer costs of change management that flows down from acquisition such as documentation and training.
@@ -19,7 +26,8 @@ Definitions
     Elastic vs Scalable
         Scalable systems CAN change to meet demands, elastic systems WILL change.
 
-    Elastic Load Balancers 
+    Elastic Load Balancers
+        Classic Load Balancer 
         Network load balancer operate at layer 4
         Application load balancer operates on level 7 only.
 
