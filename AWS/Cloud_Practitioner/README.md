@@ -109,6 +109,15 @@ AWS Local Zones are managed and supported by AWS.
 
 The Los Angeles AWS Local Zone is generally available and you can expect more Local Zones to come.
 
+### AWS Wavelength
+
+AWS Wavelength enables developers to build applications that deliver single-digit millisecond latencies to mobile devices and end-users. AWS developers can deploy their applications to Wavelength Zones, AWS infrastructure deployments that embed AWS compute and storage services within the telecommunications providers’ datacenters at the edge of the 5G networks, and seamlessly access the breadth of AWS services in the region. This enables developers to deliver applications that require single-digit millisecond latencies such as game and live video streaming, machine learning inference at the edge, and augmented and virtual reality (AR/VR). AWS Wavelength brings AWS services to the edge of the 5G network, minimizing the latency to connect to an application from a mobile device. Application traffic can reach application servers running in Wavelength Zones without leaving the mobile provider’s network. This reduces the extra network hops to the Internet that can result in latencies of more than 100 milliseconds, preventing customers from taking full advantage of the bandwidth and latency advancements of 5G.
+
+
+### AWS Outposts
+
+AWS Outposts bring native AWS services, infrastructure, and operating models to virtually any data center, co-location space, or on-premises facility. You can use the same AWS APIs, tools, and infrastructure across on-premises and the AWS cloud to deliver a truly consistent hybrid experience. AWS Outposts is designed for connected environments and can be used to support workloads that need to remain on-premises due to low latency or local data processing needs.
+
 https://aws.amazon.com/about-aws/global-infrastructure/
 
 # AWS Well-Architected Framework
@@ -205,3 +214,4 @@ organizational processes that are necessary to ensure system health and
 reliability during the move of operations to the cloud and then to operate
 using agile, ongoing, cloud computing best practices.
 
+https://aws.amazon.com/professional-services/CAF/
