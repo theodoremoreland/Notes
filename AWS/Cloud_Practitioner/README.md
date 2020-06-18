@@ -1,6 +1,14 @@
 "Cloud computing is the on-demand delivery of compute power, database storage, applications, and other IT resources through a cloud services platform via the Internet with pay-as-you-go pricing." - AWS
 
-## Six Advantages of Cloud Computing
+## Sections
+- [Six Advantages of Cloud Computing](#Six-Advantages-of-Cloud-Computing)
+- [Types of Cloud Computing / Computing Deployment](#Types-of-Cloud-Computing-Computing)
+- [Cloud Computing Models](#Cloud-Computing-Models)
+- [AWS Global Infrastructure](#AWS-Global-Infrastructure)
+- [AWS Well-Architected Framework](#AWS-Well-Architected-Framewor)
+- [AWS Cloud Adoption Framework](#AWS-Cloud-Adoption-Framework)
+
+# Six Advantages of Cloud Computing
 
 ### Trade capital expense for variable expense
 
@@ -26,7 +34,7 @@
 
     Easily deploy your application in multiple regions around the world with just a few clicks. This means you can provide lower latency and a better experience for your customers at minimal cost.
 
-## Types of Cloud Computing / Computing Deployment
+# Types of Cloud Computing
 
 ### Public
 
@@ -42,7 +50,7 @@
 https://docs.aws.amazon.com/whitepapers/latest/aws-overview/types-of-cloud-computing.html
     
 
-## Cloud Computing Model(s)
+# Cloud Computing Models
 
 ### IAAS (Infastructure as a service)
 
@@ -62,7 +70,7 @@ https://docs.aws.amazon.com/whitepapers/latest/aws-overview/types-of-cloud-compu
 
     A complete application for end users (e.g. gmail, salesforce.com, creative cloud).
 
-## AWS Global Infrastructure
+# AWS Global Infrastructure
 
 ### Geographic Regions (24)
 
@@ -103,7 +111,7 @@ https://docs.aws.amazon.com/whitepapers/latest/aws-overview/types-of-cloud-compu
 
 https://aws.amazon.com/about-aws/global-infrastructure/
 
-## AWS Well-Architected Framework
+# AWS Well-Architected Framework
 
 
 __"The Well-Architected Framework has been developed to help cloud architects build secure, high-performing, resilient, and efficient infrastructure for their applications. Based on five pillars, the Framework provides a consistent approach for customers and partners to evaluate architectures, and implement designs that will scale over time." - AWS__
@@ -134,7 +142,7 @@ __"The Well-Architected Framework has been developed to help cloud architects bu
 https://aws.amazon.com/architecture/well-architected/
 
 
-## AWS Cloud Adoption Framework (CAF)
+# AWS Cloud Adoption Framework
 
 __"AWS Professional Services created the AWS Cloud Adoption Framework (AWS CAF) to help organizations design and travel an accelerated path to successful cloud adoption. The guidance and best practices provided by the framework help you build a comprehensive approach to cloud computing across your organization, and throughout your IT lifecycle. Using the AWS CAF helps you realize measurable business benefits from cloud adoption faster and with less risk." - AWS__
 
