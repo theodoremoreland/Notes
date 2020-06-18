@@ -1,58 +1,89 @@
-Support Plans (all get billing support)
-    Basic
-        Free
-        Support forums
+## Support Plans (all get billing support)
 
-    Developer
-        $29 /month
-        Tech support during business hours (email only)
-        One person can open UNLIMITED cases
-        General Guidance = less than 24 business hours
-        System impaired = less than 12 business hours
+### Basic
 
+    Free
+    Support forums
 
-    Business
-        $100 / month
-        24/7 Tech support (via email, chat, and phone)
-        Unlimited people can open unlimited cases
-        General guidance = less than 24 [all] hours
-        System impaired = less than 12 [all] hours
-        Production system impaired = less than 4 [all] hours
-        Production system down = less than 1 [all] hours
-        Trusted Advisor?
+### Developer
 
-    Enterprise
-        $15,000 /month
-        Unlimited people can open unlimited cases
-        General guidance = less than 24 [all] hours
-        System impaired = less than 12 [all] hours
-        Production system impaired = less than 4 [all] hours
-        Production system down = less than 1 [all] hours
-        Business critical system down = less than 15 [all] minutes
-        Technical Account Manager (TAM)
-        Concierge?
+    $29 /month
+
+    Tech support during business hours (email only)
+
+    One person can open UNLIMITED cases
+
+    General Guidance = less than 24
+
+    business hours
+
+    System impaired = less than 12 business hours
 
 
-Pricing Tools
-    Simple Monthly Calculator (Deprecated - ETA June 30, 2020)
-        Being replaced by AWS Pricing Calculator @ https://calculator.aws/#/
-        (Trivia) [Was] hosted on an S3 bucket @ https://calculator.s3.amazonaws.com/index.html
+### Business
 
-    AWS Pricing Calculator
-        Can be used to estimate the monthly / yearly cost of specific configuartions for 1+ AWS services
-        Located @ https://calculator.aws/#/
+    $100 / month
 
-    AWS Total Cost of Ownership (TCO) Calculator 
-        Allows you to compare your on premises or colocation solution to AWS's cloud solution
-        Generate savings reports (for download)
-        Breaks down cost into four dimensions: Storage, IT Labor, Servers, Networking
-        Breaks down how totals were calculated
-        Makes assumptions about the technology and personnel
-        Assumptions can be customized to user's specifications.
-        Located @ https://aws.amazon.com/tco-calculator/
+    24/7 Tech support (via email, chat, and phone)
+
+    Unlimited people can open unlimited cases
+
+    General guidance = less than 24 [all] hours
+
+    System impaired = less than 12 [all] hours
+
+    Production system impaired = less than 4 [all] hours
+
+    Production system down = less than 1 [all] hours
+
+    Trusted Advisor?
+
+### Enterprise
+
+    $15,000 /month
+
+    Unlimited people can open unlimited cases
+
+    General guidance = less than 24 [all] hours
+
+    System impaired = less than 12 [all] hours
+
+    Production system impaired = less than 4 [all] hours
+
+    Production system down = less than 1 [all] hours
+
+    Business critical system down = less than 15 [all] minutes
+
+    Technical Account Manager (TAM)
+
+    Concierge?
+
+
+## Pricing Tools
+
+### Simple Monthly Calculator (Deprecated - ETA June 30, 2020)
+
+    Being replaced by AWS Pricing Calculator @ https://calculator.aws/#/
+    (Trivia) [Was] hosted on an S3 bucket @ https://calculator.s3.amazonaws.com/index.html
+
+### AWS Pricing Calculator
+
+    Can be used to estimate the monthly / yearly cost of specific configuartions for 1+ AWS services
+    Located @ https://calculator.aws/#/
+
+### AWS Total Cost of Ownership (TCO) Calculator
+
+    Allows you to compare your on premises or colocation solution to AWS's cloud solution
+    Generate savings reports (for download)
+    Breaks down cost into four dimensions: Storage, IT Labor, Servers, Networking
+    Breaks down how totals were calculated
+    Makes assumptions about the technology and personnel
+    Assumptions can be customized to user's specifications.
+    Located @ https://aws.amazon.com/tco-calculator/
 
 
 Cost Management
+
     AWS Organizations
         Used to be a cap of 20 linked accounts
 
@@ -81,6 +112,7 @@ Cost Management
 
 
 Pricing policies:
+
 	Pay as you go
 	Pay less when you reserve
     Pay even less per unit by using more
@@ -88,6 +120,7 @@ Pricing policies:
     Custom pricing
 
 Drivers of cost
+
     Compute
     Storage
     Data outbound
@@ -96,6 +129,7 @@ Start early with optimization lest cost spiral out of control
 Maximize the power of flexibility
 
 What determines price?
+
 	Clock hours
     Instance type
     Pricing model
