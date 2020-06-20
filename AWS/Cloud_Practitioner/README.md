@@ -2,7 +2,7 @@
 
 ## Sections
 - [Six Advantages of Cloud Computing](#Six-Advantages-of-Cloud-Computing)
-- [Types of Cloud Computing / Computing Deployment](#Types-of-Cloud-Computing-Computing)
+- [Types of Cloud Computing / Computing Deployment](#Types-of-Cloud-Computing)
 - [Cloud Computing Models](#Cloud-Computing-Service-Models)
 - [AWS Global Infrastructure](#AWS-Global-Infrastructure)
 - [AWS Well-Architected Framework](#AWS-Well-Architected-Framewor)
