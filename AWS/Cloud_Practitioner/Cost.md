@@ -1,68 +1,31 @@
-# Support Plans
+## Sections
+- [Pricing Principles](#Pricing-Principles)
+- [Pricing Tools](#Pricing-Tools)
+- [Support Plans](#Support-Plans)
 
 
-### Basic
 
-Free
-Support forums
+## Links
 
+https://aws.amazon.com/pricing/
 
-### Developer
-
-$29 /month
-
-Tech support during business hours (email only)
-
-One person can open UNLIMITED cases
-
-General Guidance = less than 24
-
-business hours
-
-System impaired = less than 12 business hours
+https://aws.amazon.com/premiumsupport/plans/
 
 
-### Business
 
+# Pricing Principles
 
-$100 / month
+### Pay-as-you-go
 
-24/7 Tech support (via email, chat, and phone)
+"Pay-as-you-go allows you to easily adapt to changing business needs without overcommitting budgets and improving your responsiveness to changes." - AWS
 
-Unlimited people can open unlimited cases
+### Save when you reserve
 
-General guidance = less than 24 [all] hours
+"For certain services like Amazon EC2 and Amazon RDS, you can invest in reserved capacity.  With Reserved Instances, you can save up to 75% over equivalent on-demand capacity.  When you buy Reserved Instances, the larger the upfront payment, the greater the discount." - AWS
 
-System impaired = less than 12 [all] hours
+### Pay less by using more
 
-Production system impaired = less than 4 [all] hours
-
-Production system down = less than 1 [all] hours
-
-Trusted Advisor?
-
-
-### Enterprise
-
-
-$15,000 /month
-
-Unlimited people can open unlimited cases
-
-General guidance = less than 24 [all] hours
-
-System impaired = less than 12 [all] hours
-
-Production system impaired = less than 4 [all] hours
-
-Production system down = less than 1 [all] hours
-
-Business critical system down = less than 15 [all] minutes
-
-Technical Account Manager (TAM)
-
-Concierge?
-
+"With AWS, you can get volume based discounts and realize important savings as your usage increases.  For services such as S3, pricing is tiered, meaning the more you use, the less you pay per GB." - AWS
 
 # Pricing Tools
 
@@ -89,6 +52,23 @@ Located @ https://aws.amazon.com/tco-calculator/
 
 # Cost Management
 
+### Billing
+
+Cost Explorer
+
+Used to analyze cost AFTER they have been incurred.
+
+Budgets
+
+Used to budget or predict cost BEFORE they are incurred.
+
+You can specify the percent accrual toward the cost or usage threshold. For example, specifying 100% the actual costs of a $1,000 budget will alert you when the $1,000 threshold is exceeded.
+
+You can also supplement these alerts by setting one against forecasted cost or usage values (e.g. 105% of your budgeted value), which will alert you of possible anomalies or changes in behavior.
+
+Each budget can have up to 5 associated alerts. Each alert can have up to 10 email subscribers and can optionally be published to an SNS topic
+
+
 ### AWS Organizations
 
 Used to be a cap of 20 linked accounts
@@ -101,35 +81,9 @@ Billing Alerts can disperse a notification (e.g. email) once your AWS cost reach
 for spending on the entire account are not enabled by default, despite being able to "create" them on the
 CloudWatch console.
 
-### CloudTrail
 
-Montitors API calls to AWS (i.e. commands to AWS services)
-
-### Billing
-
-Cost Explorer
-    Used to analyze cost AFTER they have been incurred.
-
-Budgets
-    Used to budget or predict cost BEFORE they are incurred.
-
-    you can further specify the percent accrual toward the cost or usage threshold. For example, specifying 100%    the actual costs of a $1,000 budget will alert you when the $1,000 threshold is exceeded.
-
-    You can also supplement these alerts by setting one against forecasted cost or usage values (e.g., 105% of your budgeted value), which will alert you of possible anomalies or changes in behavior.
-
-    Each budget can have up to 5 associated alerts. Each alert can have up to 10 email subscribers and can optionally be published to an SNS topic
-
-
-Pricing policies:
-
-Pay as you go
-Pay less when you reserve
-Pay even less per unit by using more
-Pay even less as AWS grows
-Custom pricing
 
 Drivers of cost
-
 Compute
 Storage
 Data outbound
@@ -148,3 +102,72 @@ Detailed monitoring
 Auto scaling
 Elastic IP Addresses
 Operating Systems and Software
+
+# Support Plans
+
+All support plans include:
+* 24x7 access to customer service, documentation, whitepapers, and support forums.
+* AWS Trusted Advisor
+* AWS Personal Health Dashboard 
+
+### Basic
+
+* Free
+* 7 Core Trusted Advisor checks
+
+
+### Developer
+
+* $29 /month
+
+* Tech support during business hours (E-MAIL ONLY)
+
+* ONE person can open UNLIMITED cases
+
+* **General Guidance:** less than 24
+
+* **Business hours**
+
+* **System impaired:** less than 12 business hours
+
+
+### Business
+
+
+* $100 / month
+
+* 24/7 Tech support (via email, chat, and phone)
+
+* UNLIMITED people can open UNLIMITED cases
+
+* **General guidance:** less than 24 [all] hours
+
+* **System impaired:** less than 12 [all] hours
+
+* **Production system impaired:** less than 4 [all] hours
+
+* **Production system down:** less than 1 [all] hours
+
+
+### Enterprise
+
+
+* $15,000 /month
+
+* UNLIMITED people can open UNLIMITED cases
+
+* **General guidance:** less than 24 [all] hours
+
+* **System impaired:** less than 12 [all] hours
+
+* **Production system impaired:** less than 4 [all] hours
+
+* **Production system down:** less than 1 [all] hours
+
+* **Business critical system down:** less than 15 [all] minutes
+
+* Technical Account Manager (TAM)
+
+* Concierge Support Team
+
+https://aws.amazon.com/premiumsupport/plans/
