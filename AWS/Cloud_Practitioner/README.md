@@ -8,6 +8,17 @@
 - [AWS Well-Architected Framework](#AWS-Well-Architected-Framewor)
 - [AWS Cloud Adoption Framework](#AWS-Cloud-Adoption-Framework)
 
+## Links
+
+https://docs.aws.amazon.com/whitepapers/latest/aws-overview/types-of-cloud-computing.html
+
+https://aws.amazon.com/about-aws/global-infrastructure/
+
+https://aws.amazon.com/architecture/well-architected/
+
+https://aws.amazon.com/professional-services/CAF/
+
+
 # Six Advantages of Cloud Computing
 
 ### Trade capital expense for variable expense
@@ -62,11 +73,29 @@ A platform for allowing end user to develop, run, and manage applications withou
 
 (e.g. RDS, EMR, ElasticSearch, Elastic Beanstalk)
 
-### FAAS (Function as a service /  Abstract services)
+    FAAS (Function as a service /  Abstract services)
 
-Provides an environment where users can develop and run and application CODE without having to provision or manage servers or worry about scaling the infrastructure.
+    Provides an environment where users can develop and run and application CODE without having to provision or manage servers or worry about scaling the infrastructure.
 
-Examples: Lambda
+    Examples: Lambda
+    
+    CaaS (Container as a Service)
+
+    A form of container-based virtualization in which container engines, orchestration and the underlying compute resources are delivered to users as a service from a cloud provider.
+
+    Examples: ECS
+
+    DaaS (Desktop-as-a-Service)
+
+    Examples: Workspaces
+
+    DBaaS (Database-as-a-Service)
+
+    Examples: RDS
+
+    BaaS (Backend-as-a-Service)
+
+    ETC...
 
 ### SAAS (Software as a service)
 
