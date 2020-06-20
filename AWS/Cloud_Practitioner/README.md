@@ -101,9 +101,11 @@ Examples: Workspaces
 
 * DBaaS (Database-as-a-Service)
 
-Examples: RDS
+Examples: RDS, Dynamo, Aurora, ElastiCache, DocumentDB, Neptune, Timestream, QLDB
 
-* BaaS (Backend-as-a-Service)
+* mBaaS (Mobile-Backend-as-a-Service)
+
+Example: Amplify
 
 etc...
 
@@ -135,7 +137,7 @@ If an application is partitioned across AZ’s, companies are better isolated an
 
 A site that CloudFront uses to cache copies of your content for faster delivery to users at any location.
 
-Provides DDOS protection
+Provides DDOS protection ???
 
 ### Local Zones (1)
 
@@ -231,7 +233,7 @@ Organizational Change Management helps you manage the impact of business, struct
 
 ### Governance Perspective
 
-The Governance Perspective integrates IT Governance and Organizational Governance. It provides guidance on identifying and implementing best practices for IT Governance, and on supporting business processes with technology.
+"The Governance Perspective integrates IT Governance and Organizational Governance. It provides guidance on identifying and implementing best practices for IT Governance, and on supporting business processes with technology.
 
 Common Roles: CIO; Program Managers; Project Managers; Enterprise Architects; Business Analysts; Portfolio Managers.
 
@@ -243,11 +245,11 @@ Program and Project Management helps you manage technology projects using method
 
 Business Performance Measurement helps you measure the impact of the cloud on business objectives.
 
-License Management defines methods to procure, distribute, and manage the licenses needed for IT systems, services, and software.
+License Management defines methods to procure, distribute, and manage the licenses needed for IT systems, services, and software." - AWS
 
 ### Platform Perspective
 
-The Platform Perspective helps you design, implement, and optimize the architecture of AWS technology based on business goals and objectives. It helps provide strategic guidance for the design, principles, tools, and policies you will use to define AWS infrastructure. The Platform perspective also includes principles and patterns for communicating your target state environment, implementing new solutions on the cloud, and migrating on-premises workloads to the cloud.
+"The Platform Perspective helps you design, implement, and optimize the architecture of AWS technology based on business goals and objectives. It helps provide strategic guidance for the design, principles, tools, and policies you will use to define AWS infrastructure. The Platform perspective also includes principles and patterns for communicating your target state environment, implementing new solutions on the cloud, and migrating on-premises workloads to the cloud.
 Common Roles: CTO; IT Managers; Solution Architects.
 
 Capabilities:
@@ -256,11 +258,11 @@ Systems and Solution Architecture helps you define and describe the system desig
 
 Compute, Network, Storage, and Database Provisioning helps you develop new processes for provisioning infrastructure in a cloud environment. Provisioning shifts from an operational focus aligning supply with demand, to an architectural focus aligning services with requirements.
 
-Application Development addresses your ability to support business goals with new or updated applications, and helps implement new skills and processes for software development that take advantage of the agility gained by cloud computing.
+Application Development addresses your ability to support business goals with new or updated applications, and helps implement new skills and processes for software development that take advantage of the agility gained by cloud computing." - AWS
 
 ### Security Perspective
 
-The Security Perspective helps you structure the selection and implementation of controls. Following this guidance can make it easier to identify areas of non-compliance and plan ongoing security initiatives.
+"The Security Perspective helps you structure the selection and implementation of controls. Following this guidance can make it easier to identify areas of non-compliance and plan ongoing security initiatives.
 
 For more information on the AWS CAF Security Perspective, download the AWS CAF Security Perspective White Paper.
 Common Roles: CISO; IT Security Managers; IT Security Analysts.
@@ -275,11 +277,11 @@ Infrastructure Security helps you implement control methodologies necessary to c
 
 Data Protection helps you to implement appropriate safeguards that protect data in transit and at rest.
 
-Incident Response helps you define and execute a response to security incidents.
+Incident Response helps you define and execute a response to security incidents." - AWS
 
 ### Operations Perspective
 
-The Operations Perspective helps you to run, use, operate, and recover IT workloads to levels that meet the requirements of your business stakeholders. Insights gained through the Operations Perspective define your current operating procedures as well as process changes and training needed for successful cloud adoption. Well-managed IT operations support the operations of the business from planning and sustaining, through change and incident management.
+"The Operations Perspective helps you to run, use, operate, and recover IT workloads to levels that meet the requirements of your business stakeholders. Insights gained through the Operations Perspective define your current operating procedures as well as process changes and training needed for successful cloud adoption. Well-managed IT operations support the operations of the business from planning and sustaining, through change and incident management.
 Common Roles: IT Operations Managers; IT Support Managers.
 
 Capabilities:
@@ -296,6 +298,6 @@ Reporting and Analytics helps you monitor the health of cloud assets and provide
 
 Business Continuity/Disaster Recovery helps you implement processes to keep your business running during a catastrophic event.
 
-IT Service Catalog helps you to offer cloud services to the business using a model that can help to improve efficiency of providing IT services as well as the productivity of consuming them.
+IT Service Catalog helps you to offer cloud services to the business using a model that can help to improve efficiency of providing IT services as well as the productivity of consuming them." - AWS
 
 https://aws.amazon.com/professional-services/CAF/
