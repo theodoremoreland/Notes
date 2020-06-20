@@ -108,7 +108,7 @@ Operating Systems and Software
 All support plans include:
 * 24x7 access to customer service, documentation, whitepapers, and support forums.
 * AWS Trusted Advisor
-* AWS Personal Health Dashboard 
+* AWS Personal Health Dashboard
 
 ### Basic
 
@@ -118,17 +118,23 @@ All support plans include:
 
 ### Developer
 
-* $29 /month
+* $29 / month __(OR 3% of monthly AWS usage)__
 
-* Tech support during business hours (E-MAIL ONLY)
+**Enhanced Technical Support:**
 
-* ONE person can open UNLIMITED cases
+Cloud Support Associate
 
-* **General Guidance:** less than 24
+Business hours (E-MAIL ONLY)
 
-* **Business hours**
+ONE person can open UNLIMITED cases
 
-* **System impaired:** less than 12 business hours
+    Case Severity / Response Times:
+
+        General Guidance:
+         < 24 business hrs
+
+        System impaired:
+         < 12 business hrs
 
 
 ### Business
