@@ -10,6 +10,10 @@
 
 https://aws.amazon.com/pricing/
 
+https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html
+
+https://aws.amazon.com/organizations/
+
 https://aws.amazon.com/premiumsupport/plans/
 
 https://aws.amazon.com/premiumsupport/plans/enterprise/
@@ -68,25 +72,27 @@ environment, or other criteria." - AWS
 
     Cost Explorer
 
-        Used to analyze cost AFTER they have been incurred.
+        Analyze cost AFTER they have been incurred.
 
-        "Analyze your data at a high level (for example, total costs and usage across all accounts) or dive deeper into your cost and usage data to identify trends, pinpoint cost drivers, and detect anomalies." - AWS
+        Analyze your cost and usage data.
 
-        Monthly Costs by AWS Service
+        Monthly Costs by AWS Service.
 
-        Hourly and Resource Level Granularity
+        Hourly and Resource Level Granularity.
 
         Savings Plans
 
     Budgets
 
-        Used to budget or predict service cost BEFORE they are incurred.
+        Budget or predict service cost BEFORE they are incurred.
 
-        Can be used to notify select users when cost reach / are predicted to reach a budgeted amount.
+        Can notify users when cost reach/are predicted to reach a budget.
 
-        You can specify the percentage of usage or cost for a given budget to which you recieve alerts. 
+        Can specify the percentage of usage or cost for a given budget to recieve alerts. 
 
-        Each budget can have up to 5 associated alerts. Each alert can have up to 10 email subscribers and can optionally be published to an SNS topic
+        Each budget can have up to 5 associated alerts.
+        
+        Each alert can have up to 10 subscribers & be publish to SNS.
 
 ### CloudWatch
 
@@ -101,10 +107,9 @@ CloudWatch console.
 "Enables you to centrally apply policy-based controls across multiple accounts in the AWS Cloud.
 You can consolidate all your AWS accounts into an organization, and arrange all AWS accounts into distinct organizational units." - AWS
 
+Root account / AWS Organization's host can control resources across entire organization UNLESS the created "with only consolidated billing features"
 
-Used to be a cap of 20 linked accounts
-
-
+Tentative cap of 20 linked accounts
 
 
 # Support Plans
