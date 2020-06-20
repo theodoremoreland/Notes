@@ -87,27 +87,27 @@ A complete application for end users.
 
 ### Others
 
-FAAS (Function as a service /  Abstract services)
+**FAAS (Function as a service /  Abstract services)**
 
 Provides an environment where users can develop and run and application CODE without having to provision or manage servers or worry about scaling the infrastructure.
 
 Examples: Lambda
 
-CaaS (Container as a Service)
+**CaaS (Container as a Service)**
 
 A form of container-based virtualization in which container engines, orchestration and the underlying compute resources are delivered to users as a service from a cloud provider.
 
 Examples: ECS
 
-DaaS (Desktop-as-a-Service)
+**DaaS (Desktop-as-a-Service)**
 
 Examples: Workspaces
 
-DBaaS (Database-as-a-Service)
+**DBaaS (Database-as-a-Service)**
 
 Examples: RDS
 
-BaaS (Backend-as-a-Service)
+**BaaS (Backend-as-a-Service)**
 
 etc...
 
