@@ -120,7 +120,7 @@ All support plans include:
 
 * **$29 / month** *(or 3% of monthly AWS usage)*
 
-* Enhanced Technical Support:
+* <ins>Enhanced Technical Support:</ins>
 
     Cloud Support Associate
 
@@ -140,40 +140,63 @@ All support plans include:
 ### Business
 
 
-* $100 / month
+* **$100 / month** *(or 10%-3% of monthly AWS usage based on bill)*
 
-* 24/7 Tech support (via email, chat, and phone)
+* <ins>Enhanced Technical Support:</ins>
 
-* UNLIMITED people can open UNLIMITED cases
+    Cloud Support Engineer
 
-* **General guidance:** less than 24 [all] hours
+    24/7 (via e-mail, chat, and phone)
 
-* **System impaired:** less than 12 [all] hours
+    UNLIMITED people can open UNLIMITED cases (IAM supported)
 
-* **Production system impaired:** less than 4 [all] hours
+    Case Severity / Response Times:
 
-* **Production system down:** less than 1 [all] hours
+        General guidance:
+         < 24 hrs
+
+        System impaired:
+         < 12 hrs
+
+        Production system impaired:
+        < 4 hours
+
+        Production system down:
+        < 1 hr
 
 
 ### Enterprise
 
 
-* $15,000 /month
+* **$15,000 / month** *(or 10%-3% of monthly AWS usage based on bill)*
 
-* UNLIMITED people can open UNLIMITED cases
+* <ins>Enhanced Technical Support:</ins>
 
-* **General guidance:** less than 24 [all] hours
+    Cloud Support Engineer
 
-* **System impaired:** less than 12 [all] hours
+    24/7 (via e-mail, chat, and phone)
 
-* **Production system impaired:** less than 4 [all] hours
+    UNLIMITED people can open UNLIMITED cases (IAM supported)
 
-* **Production system down:** less than 1 [all] hours
+    Case Severity / Response Times:
 
-* **Business critical system down:** less than 15 [all] minutes
+        General guidance:
+         < 24 hrs
 
-* Technical Account Manager (TAM)
+        System impaired:
+         < 12 hrs
 
-* Concierge Support Team
+        Production system impaired:
+        < 4 hours
+
+        Production system down:
+        < 1 hr
+
+        Business critical system down:
+        < 15 minutes
+
+* **Technical Account Manager (TAM)** 
+
+* **Concierge Support Team**
 
 https://aws.amazon.com/premiumsupport/plans/
