@@ -32,7 +32,7 @@ https://aws.amazon.com/premiumsupport/plans/enterprise/
 
 # Pricing Tools
 
-### Simple Monthly Calculator (Deprecated - ETA June 30, 2020)
+### Simple Monthly Calculator (Deprecated - ETD June 30, 2020)
 
 Being replaced by AWS Pricing Calculator @ https://calculator.aws/#/
 (Trivia) [Was] hosted on an S3 bucket @ https://calculator.s3.amazonaws.com/index.html
@@ -55,21 +55,38 @@ Located @ https://aws.amazon.com/tco-calculator/
 
 # Cost Management
 
+
+## Tagging
+
+"Amazon Web Services allows customers to assign metadata to their AWS resources in the form
+of tags. Each tag is a simple label consisting of a customer-defined key and an optional value
+that can make it easier to manage, search for, and filter resources. Although there are no
+inherent types of tags, they enable customers to categorize resources by purpose, owner,
+environment, or other criteria." - AWS
+
 ## Billing
 
-Cost Explorer
+    Cost Explorer
 
-Used to analyze cost AFTER they have been incurred.
+        Used to analyze cost AFTER they have been incurred.
 
-Budgets
+        "Analyze your data at a high level (for example, total costs and usage across all accounts) or dive deeper into your cost and usage data to identify trends, pinpoint cost drivers, and detect anomalies." - AWS
 
-Used to budget or predict cost BEFORE they are incurred.
+        Monthly Costs by AWS Service
 
-You can specify the percent accrual toward the cost or usage threshold. For example, specifying 100% the actual costs of a $1,000 budget will alert you when the $1,000 threshold is exceeded.
+        Hourly and Resource Level Granularity
 
-You can also supplement these alerts by setting one against forecasted cost or usage values (e.g. 105% of your budgeted value), which will alert you of possible anomalies or changes in behavior.
+        Savings Plans
 
-Each budget can have up to 5 associated alerts. Each alert can have up to 10 email subscribers and can optionally be published to an SNS topic
+    Budgets
+
+        Used to budget or predict service cost BEFORE they are incurred.
+
+        Can be used to notify select users when cost reach / are predicted to reach a budgeted amount.
+
+        You can specify the percentage of usage or cost for a given budget to which you recieve alerts. 
+
+        Each budget can have up to 5 associated alerts. Each alert can have up to 10 email subscribers and can optionally be published to an SNS topic
 
 ### CloudWatch
 
@@ -81,11 +98,13 @@ CloudWatch console.
 
 ## AWS Organizations
 
+"Enables you to centrally apply policy-based controls across multiple accounts in the AWS Cloud.
+You can consolidate all your AWS accounts into an organization, and arrange all AWS accounts into distinct organizational units." - AWS
+
+
 Used to be a cap of 20 linked accounts
 
-## Tagging
 
-Tagging Strategies
 
 
 # Support Plans
@@ -160,11 +179,11 @@ All support plans include:
 
 * Full set of Trusted Advisor checks
 
+* AWS Support API
+
 * **Technical Account Manager (TAM)** 
 
 * **Concierge Support Team**
-
-* AWS Support API
 
 * <ins>Enhanced Technical Support:</ins>
 
@@ -200,7 +219,7 @@ https://aws.amazon.com/premiumsupport/plans/enterprise/
 
 ## Definitions
 
-### Technial Account Manager (TAM)
+### Technical Account Manager (TAM)
 
 "Your designated technical point of contact who provides advocacy and guidance to help plan and build solutions using best practices, coordinate access to subject matter experts and product teams, and proactively keep your AWS environment operationally healthy." - AWS
 
