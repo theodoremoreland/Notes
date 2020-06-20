@@ -10,6 +10,10 @@
 
 ## Links
 
+https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html
+
+https://aws.amazon.com/types-of-cloud-computing/
+
 https://docs.aws.amazon.com/whitepapers/latest/aws-overview/types-of-cloud-computing.html
 
 https://aws.amazon.com/about-aws/global-infrastructure/
@@ -44,6 +48,8 @@ Focus on projects that differentiate your business, not the infrastructure. Clou
 ### Go global in minutes
 
 Easily deploy your application in multiple regions around the world with just a few clicks. This means you can provide lower latency and a better experience for your customers at minimal cost.
+
+https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html
 
 # Types of Cloud Computing
 
