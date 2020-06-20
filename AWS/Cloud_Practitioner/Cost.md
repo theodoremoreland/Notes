@@ -118,15 +118,15 @@ All support plans include:
 
 ### Developer
 
-* $29 / month __(OR 3% of monthly AWS usage)__
+* **$29 / month** *(or 3% of monthly AWS usage)*
 
-**Enhanced Technical Support:**
+* Enhanced Technical Support:
 
-Cloud Support Associate
+    Cloud Support Associate
 
-Business hours (E-MAIL ONLY)
+    Business hours (E-MAIL ONLY)
 
-ONE person can open UNLIMITED cases
+    ONE person can open UNLIMITED cases
 
     Case Severity / Response Times:
 
