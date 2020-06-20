@@ -1,8 +1,9 @@
 ## Sections
 - [Pricing Principles](#Pricing-Principles)
 - [Pricing Tools](#Pricing-Tools)
+- [Cost Management](#Cost-Management)
 - [Support Plans](#Support-Plans)
-
+- [Definitions](#Definitions)
 
 
 ## Links
@@ -10,6 +11,8 @@
 https://aws.amazon.com/pricing/
 
 https://aws.amazon.com/premiumsupport/plans/
+
+https://aws.amazon.com/premiumsupport/plans/enterprise/
 
 
 
@@ -52,7 +55,7 @@ Located @ https://aws.amazon.com/tco-calculator/
 
 # Cost Management
 
-### Billing
+## Billing
 
 Cost Explorer
 
@@ -68,11 +71,6 @@ You can also supplement these alerts by setting one against forecasted cost or u
 
 Each budget can have up to 5 associated alerts. Each alert can have up to 10 email subscribers and can optionally be published to an SNS topic
 
-
-### AWS Organizations
-
-Used to be a cap of 20 linked accounts
-
 ### CloudWatch
 
 Monitors performance (of mainly EC2 instances)
@@ -81,27 +79,14 @@ Billing Alerts can disperse a notification (e.g. email) once your AWS cost reach
 for spending on the entire account are not enabled by default, despite being able to "create" them on the
 CloudWatch console.
 
+## AWS Organizations
 
+Used to be a cap of 20 linked accounts
 
-Drivers of cost
-Compute
-Storage
-Data outbound
+## Tagging
 
-Start early with optimization lest cost spiral out of control
-Maximize the power of flexibility
+Tagging Strategies
 
-What determines price?
-
-Clock hours
-Instance type
-Pricing model
-Numbers of instances
-Load balancing
-Detailed monitoring
-Auto scaling
-Elastic IP Addresses
-Operating Systems and Software
 
 # Support Plans
 
@@ -113,7 +98,6 @@ All support plans include:
 ### Basic
 
 * Free
-* 7 Core Trusted Advisor checks
 
 
 ### Developer
@@ -141,6 +125,10 @@ All support plans include:
 
 
 * **$100 / month** *(or 10%-3% of monthly AWS usage based on bill)*
+
+* Full set of Trusted Advisor checks
+
+* AWS Support API
 
 * <ins>Enhanced Technical Support:</ins>
 
@@ -170,6 +158,14 @@ All support plans include:
 
 * **$15,000 / month** *(or 10%-3% of monthly AWS usage based on bill)*
 
+* Full set of Trusted Advisor checks
+
+* **Technical Account Manager (TAM)** 
+
+* **Concierge Support Team**
+
+* AWS Support API
+
 * <ins>Enhanced Technical Support:</ins>
 
     Cloud Support Engineer
@@ -195,8 +191,19 @@ All support plans include:
         Business critical system down:
         < 15 minutes
 
-* **Technical Account Manager (TAM)** 
 
-* **Concierge Support Team**
 
 https://aws.amazon.com/premiumsupport/plans/
+https://aws.amazon.com/premiumsupport/plans/enterprise/
+
+
+
+## Definitions
+
+### Technial Account Manager (TAM)
+
+"Your designated technical point of contact who provides advocacy and guidance to help plan and build solutions using best practices, coordinate access to subject matter experts and product teams, and proactively keep your AWS environment operationally healthy." - AWS
+
+### Concierge Support Team
+
+"AWS billing and account experts that specialize in working with enterprise accounts. They will quickly and efficiently assist you with your billing and account inquiries, and work with you to implement billing and account best practices so that you can focus on what matters: running your business." - AWS
