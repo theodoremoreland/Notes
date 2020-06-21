@@ -16,10 +16,6 @@ https://docs.aws.amazon.com/whitepapers/latest/aws-overview/types-of-cloud-compu
 
 https://aws.amazon.com/about-aws/global-infrastructure/
 
-https://aws.amazon.com/architecture/well-architected/
-
-https://aws.amazon.com/professional-services/CAF/
-
 
 # Six Advantages of Cloud Computing
 
