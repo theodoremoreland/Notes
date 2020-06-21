@@ -16,6 +16,8 @@ Total cost of ownership (TCO) is an analysis that places a single value on the c
 
 ### Fault Tolerant
 
+### Automation
+
 ### Availability
 
 ### Reliability
@@ -37,7 +39,7 @@ https://wa.aws.amazon.com/wat.concept.elasticity.en.html
 
 ### Elastic vs Scalable
 
-Scalable systems CAN change to meet demands, elastic systems WILL change.
+Scalable systems will accomodate increases in demand by adding resources (typically more EC2 instances). Elastic systems will both add and remove resources relative to demand (think of a rubberband; it can grow and shrink in size).
 
 ### Elastic Load Balancers
 

@@ -1,4 +1,4 @@
-# AWS's Web tools
+# AWS's Web tools / Resources
 
 ## Pricing Calculator
 Estimate the cost for your architecture solution.
