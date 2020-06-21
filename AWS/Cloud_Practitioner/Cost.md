@@ -74,6 +74,8 @@ that can make it easier to manage, search for, and filter resources. Although th
 inherent types of tags, they enable customers to categorize resources by purpose, owner,
 environment, or other criteria." - AWS
 
+**Going to Resource Groups > Tag Editor in the AWS Console (in the upper left of screen) allows you to view all resources attached to the AWS account. This can be used to find potentially hidden resources that incurr cost or used to find resources of a certain type and/or tag.**
+
 ## Billing
 
     Cost Explorer
