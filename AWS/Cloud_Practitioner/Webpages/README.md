@@ -1,4 +1,4 @@
-# AWS's Web based tools / SaaS web applications
+# AWS's Web tools
 
 ## Pricing Calculator
 Estimate the cost for your architecture solution.

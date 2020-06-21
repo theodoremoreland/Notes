@@ -1,57 +1,79 @@
-## Definitions
+# Definitions
 
 ### Bucket Policiy
 
 ### Resource Group
 
 ### Access Control List (ACL)
-    A document that defines who can access a particular bucket or object. Each bucket   and object in Amazon S3 has an ACL. The document defines what each type of user can do, such as write and read permissions.
+
+A document that defines who can access a particular bucket or object. Each bucket   and object in Amazon S3 has an ACL. The document defines what each type of user can do, such as write and read permissions.
 
 ### Network Control List
 
 ### Total Cost of Ownership (TCO)
 
-    Total cost of ownership (TCO) is an analysis that places a single value on the complete life-cycle of a capital purchase. This value includes every phase of ownership: acquisition, operation, and the softer costs of change management that flows down from acquisition such as documentation and training.
+Total cost of ownership (TCO) is an analysis that places a single value on the complete life-cycle of a capital purchase. This value includes every phase of ownership: acquisition, operation, and the softer costs of change management that flows down from acquisition such as documentation and training.
 
-    There are three core components to Total Cost of Ownership/TCO calculations:
-        Acquisition/Physical Hardware Costs
-        Operating Costs
-        Personnel Costs
+### Fault Tolerant
 
-### Elasticity
-    The ability to automatically scale only when necessary.
+### Availability
+
+### Reliability
+
+### Durability
 
 ### Scalability
-    The ability to add, remove, upgrade, or downgrade resources to optimize performance or cost.
+
+Successful, growing, systems often see an increase in demand over time. A system that is scalable can adapt to meet this new level of demand.
+
+https://wa.aws.amazon.com/wat.concept.scalability.en.html
+
+### Elasticity
+
+The ability to acquire resources as you need them and release resources when you no longer need them. In the cloud, you want to do this automatically.
+
+https://wa.aws.amazon.com/wat.concept.elasticity.en.html
+
 
 ### Elastic vs Scalable
-    Scalable systems CAN change to meet demands, elastic systems WILL change.
+
+Scalable systems CAN change to meet demands, elastic systems WILL change.
 
 ### Elastic Load Balancers
-    Classic Load Balancer 
-    Network load balancer (operate at layer 4)
-    Application load balancer (operates on level 7 only).
+
+Classic Load Balancer 
+Network load balancer (operate at layer 4)
+Application load balancer (operates on level 7 only).
 
 ### Auto Scaling Groups
 
 ### CDN Networks
-        Edge locations - where content is cached.
-        Origin - the origin of all the files that the cdn will distribute.
-        Distributions  - the name of the cdn which consists of a collection of edge locations.
-        Web distribution - typically for websites
-        RTMP - used for media streaming
-        Objects are timed to TTL (time to live)
+
+Edge locations - where content is cached.
+
+Origin - the origin of all the files that the cdn will distribute.
+
+Distributions - the name of the cdn which consists of a collection of edge locations.
+
+Web distribution - typically for websites
+
+RTMP - used for media streaming
+
+Objects are timed to TTL (time to live)
 
 ### CIDR block
-    Classless Inter-Domain Routing. An internet protocol address allocation and route aggregation methodology.
-    See also Classless Inter-Domain Routing in Wikipedia.
 
-## Acronyms
+Classless Inter-Domain Routing. An internet protocol address allocation and route aggregation methodology.
+See also Classless Inter-Domain Routing in Wikipedia.
+
+# Acronyms
+
     Capex (Capital Expenditure)
     Opex (Operational Expenditure)
 
 
-## Initialisms
+# Initialisms
+
     TCO (Total Cost of Ownership)
     ACM (AWS Certificate Manager)
     AMI (Amazon Machine Image)

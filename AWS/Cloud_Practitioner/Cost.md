@@ -50,7 +50,13 @@ Located @ https://calculator.aws/#/
 
 Allows you to compare your on premises or colocation solution to AWS's cloud solution
 Generate savings reports (for download)
-Breaks down cost into four dimensions: Storage, IT Labor, Servers, Networking
+
+Breaks down cost into four dimensions:
+1. Storage
+2. IT Labor
+3. Servers
+4. Networking
+
 Breaks down how totals were calculated
 Makes assumptions about the technology and personnel
 Assumptions can be customized to user's specifications.
@@ -185,6 +191,8 @@ All support plans include:
 * Full set of Trusted Advisor checks
 
 * AWS Support API
+
+* Access to online self-paced labs
 
 * **Technical Account Manager (TAM)** 
 
