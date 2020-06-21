@@ -57,9 +57,15 @@ What is Config?
 
 What is DynamoDB?
 
+What are three of DynamoDB's core components?
+
 What is EBS?
 
 What is EC2?
+
+What are the five EC2 pricing models?
+
+What are the three Placement Group strategies?
 
 What is IAM?
 
@@ -73,11 +79,17 @@ What is Personal Health Dashboard?
 
 What is RDS?
 
+What are the six engines supported by RDS?
+
 What is Redshift?
 
 What is S3?
 
+What are the six storage tiers / classes of S3?
+
 What is Trusted Advisor?
+
+What are the five types of check that Trusted Advisor makes?
 
 What is VPC?
 
