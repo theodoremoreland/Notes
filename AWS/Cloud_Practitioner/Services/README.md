@@ -1,13 +1,11 @@
-
-
-
 # Services Overview
 
 ### Storage
 
 * S3
+* S3 Glacier
 * Elastic Block Storage (EBS)
-* Snowball
+* Snowball :office:
 
 ### Database
 
@@ -25,20 +23,20 @@
 ### Networking & Content Delivery
 
 * VPC
-* CloudFront
-* Route 53
+* CloudFront :earth_americas:
+* Route 53 :earth_americas:
 * Global Accelerator
 
 ### Management & Governance
 
-* AWS Organizations
+* AWS Organizations :earth_americas:
 * CloudWatch
 * AWS Auto Scaling
 * CloudFormation
 * CloudTrail
 * Config
-* Trusted Advisor
-* Personal Health Dashboard
+* Trusted Advisor :earth_americas:
+* Personal Health Dashboard :earth_americas:
 
 
 ### Analytics
@@ -48,12 +46,12 @@
 
 ### Security, Identity, & Compliance
 
-* IAM
+* IAM :earth_americas:
 * Inspector
 * Amazon Macie
 * Key Management Service
 * WAF & Shield
-* Artifact
+* Artifact :earth_americas:
 
 
 # Free Tier
@@ -108,18 +106,3 @@
 
 https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc
 
-# Global services
-
-* IAM 
-* Route 53
-* SNS
-* SES
-* CloudFront
-
-# On premise services
-
-* Snowball
-* Snowball edge
-* Storage gateway
-* Codedeploy
-* Opsworks 
