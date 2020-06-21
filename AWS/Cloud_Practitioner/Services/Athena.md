@@ -13,3 +13,5 @@ Amazon Athena uses Presto with ANSI SQL support and works with a variety of stan
 
 ### Fast, really fast
 With Amazon Athena, you don't have to worry about having enough compute resources to get fast, interactive query performance. Amazon Athena automatically executes queries in parallel, so most results come back within seconds.
+
+https://aws.amazon.com/athena/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc

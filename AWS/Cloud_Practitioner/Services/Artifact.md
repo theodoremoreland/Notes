@@ -27,3 +27,5 @@
 Form W-9: This is Amazon Web Services, Inc.'s signed W-9 for 2019.
 
 ASIP HDS Certification: This certification, issued by an independent third-party auditor, validates that AWS complies with the ASIP HDS standard. The ASIP HDS standard provides technical and governance measures to secure and protect personal health data.
+
+https://aws.amazon.com/artifact/
