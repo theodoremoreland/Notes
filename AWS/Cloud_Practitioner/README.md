@@ -6,6 +6,9 @@
 - [Cloud Computing Models](#Cloud-Computing-Service-Models)
 - [AWS Global Infrastructure](#AWS-Global-Infrastructure)
 
+principles of sound cloud design?
+principles of sound design when it comes to security?
+
 ## Links
 
 https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html

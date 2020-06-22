@@ -115,7 +115,7 @@ CloudWatch console.
 "Enables you to centrally apply policy-based controls across multiple accounts in the AWS Cloud.
 You can consolidate all your AWS accounts into an organization, and arrange all AWS accounts into distinct organizational units." - AWS
 
-Root account / AWS Organization's host can control resources across entire organization UNLESS the created "with only consolidated billing features"
+Root account / AWS Organization's host can control resources across entire organization UNLESS created "with only consolidated billing features"
 
 Tentative cap of 20 linked accounts
 
