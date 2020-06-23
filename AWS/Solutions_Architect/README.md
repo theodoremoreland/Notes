@@ -8,6 +8,8 @@
 
 https://aws.amazon.com/architecture/well-architected/
 
+https://aws.amazon.com/blogs/apn/the-5-pillars-of-the-aws-well-architected-framework/
+
 https://aws.amazon.com/professional-services/CAF/
 
 # AWS Well-Architected Framework
@@ -40,6 +42,7 @@ The ability to run systems to deliver business value at the lowest price point.
 
 https://aws.amazon.com/architecture/well-architected/
 
+https://aws.amazon.com/blogs/apn/the-5-pillars-of-the-aws-well-architected-framework/
 
 # AWS Cloud Adoption Framework
 

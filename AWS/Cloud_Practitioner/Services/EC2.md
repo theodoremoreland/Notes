@@ -17,7 +17,13 @@ On-Demand instances are recommended for:
 Savings Plans are a flexible pricing model that offer low prices on EC2 and Fargate usage, in exchange for a commitment to a consistent amount of usage (measured in $/hour) for a 1 or 3 year term.
 
 ### Reserved Instances
+
 Reserved Instances provide you with a significant discount (up to 75%) compared to On-Demand instance pricing. In addition, when Reserved Instances are assigned to a specific Availability Zone, they provide a capacity reservation, giving you additional confidence in your ability to launch instances when you need them.
+
+Pricing for Reserved instances come in three options:
+* AURI (All upfront reserved instance)
+* PURI (Partial upfront reserved instance)
+* NURI (No upfront reserved instance)
 
 Reserved Instances are recommended for:
 

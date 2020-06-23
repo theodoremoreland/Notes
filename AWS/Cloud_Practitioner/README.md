@@ -5,9 +5,8 @@
 - [Types of Cloud Computing / Computing Deployment](#Types-of-Cloud-Computing)
 - [Cloud Computing Models](#Cloud-Computing-Service-Models)
 - [AWS Global Infrastructure](#AWS-Global-Infrastructure)
+- [AWS Well-Architected Framework](#AWS-Well-Architected-Framewor)
 
-principles of sound cloud design?
-principles of sound design when it comes to security?
 
 ## Links
 
@@ -18,6 +17,10 @@ https://aws.amazon.com/types-of-cloud-computing/
 https://docs.aws.amazon.com/whitepapers/latest/aws-overview/types-of-cloud-computing.html
 
 https://aws.amazon.com/about-aws/global-infrastructure/
+
+https://aws.amazon.com/architecture/well-architected/
+
+https://aws.amazon.com/blogs/apn/the-5-pillars-of-the-aws-well-architected-framework/
 
 
 # Six Advantages of Cloud Computing
@@ -156,3 +159,87 @@ AWS Wavelength enables developers to build applications that deliver single-digi
 AWS Outposts bring native AWS services, infrastructure, and operating models to virtually any data center, co-location space, or on-premises facility. You can use the same AWS APIs, tools, and infrastructure across on-premises and the AWS cloud to deliver a truly consistent hybrid experience. AWS Outposts is designed for connected environments and can be used to support workloads that need to remain on-premises due to low latency or local data processing needs.
 
 https://aws.amazon.com/about-aws/global-infrastructure/
+
+# AWS Well-Architected Framework
+
+
+__"The Well-Architected Framework has been developed to help cloud architects build secure, high-performing, resilient, and efficient infrastructure for their applications. Based on five pillars, the Framework provides a consistent approach for customers and partners to evaluate architectures, and implement designs that will scale over time." - AWS__
+
+
+## The pillars of the AWS Well-Architected Framework
+
+### Operational Excellence
+
+The ability to run and monitor systems to deliver business value and to continually improve supporting processes and procedures.
+
+**Design Principles**
+
+There are six design principles for operational excellence in the cloud:
+
+* Perform operations as code
+* Annotate documentation
+* Make frequent, small, reversible changes
+* Refine operations procedures frequently
+* Anticipate failure
+* Learn from all operational failures
+
+### Security
+
+The ability to protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies.
+
+**Design Principles**
+
+There are six design principles for security in the cloud:
+
+* Implement a strong identity foundation
+* Enable traceability
+* Apply security at all layers
+* Automate security best practices
+* Protect data in transit and at rest
+* Prepare for security events
+
+### Reliability
+
+The ability of a system to recover from infrastructure or service disruptions, dynamically acquire computing resources to meet demand, and mitigate disruptions such as misconfigurations or transient network issues.
+
+**Design Principles**
+
+There are five design principles for reliability in the cloud:
+
+* Test recovery procedures
+* Automatically recover from failure
+* Scale horizontally to increase aggregate system availability
+* Stop guessing capacity
+* Manage change in automation
+
+### Performance Efficiency
+
+The ability to use computing resources efficiently to meet system requirements, and to maintain that efficiency as demand changes and technologies evolve.
+
+**Design Principles**
+
+There are five design principles for performance efficiency in the cloud:
+
+* Democratize advanced technologies
+* Go global in minutes
+* Use serverless architectures
+* Experiment more often
+* Mechanical sympathy
+
+### Cost Optimization
+
+The ability to run systems to deliver business value at the lowest price point.
+
+**Design Principles**
+
+There are five design principles for cost optimization in the cloud:
+
+* Adopt a consumption model
+* Measure overall efficiency
+* Stop spending money on data center operations
+* Analyze and attribute expenditure
+* Use managed services to reduce cost of ownership
+
+https://aws.amazon.com/architecture/well-architected/
+
+https://aws.amazon.com/blogs/apn/the-5-pillars-of-the-aws-well-architected-framework/

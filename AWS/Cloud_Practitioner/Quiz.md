@@ -65,6 +65,8 @@ What is EC2?
 
 What are the five EC2 pricing models?
 
+What are the three pricing options for Reserved Instances?
+
 What are the three Placement Group strategies?
 
 What is IAM?
