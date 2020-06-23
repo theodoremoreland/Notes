@@ -1,19 +1,5 @@
 # Definitions
 
-### Bucket Policiy
-
-### Resource Group
-
-### Access Control List (ACL)
-
-A document that defines who can access a particular bucket or object. Each bucket   and object in Amazon S3 has an ACL. The document defines what each type of user can do, such as write and read permissions.
-
-### Network Control List
-
-### Total Cost of Ownership (TCO)
-
-Total cost of ownership (TCO) is an analysis that places a single value on the complete life-cycle of a capital purchase. This value includes every phase of ownership: acquisition, operation, and the softer costs of change management that flows down from acquisition such as documentation and training.
-
 ### Fault Tolerant
 
 ### Automation
@@ -49,24 +35,19 @@ Application load balancer (operates on level 7 only).
 
 ### Auto Scaling Groups
 
-### CDN Networks
-
-Edge locations - where content is cached.
-
-Origin - the origin of all the files that the cdn will distribute.
-
-Distributions - the name of the cdn which consists of a collection of edge locations.
-
-Web distribution - typically for websites
-
-RTMP - used for media streaming
-
-Objects are timed to TTL (time to live)
 
 ### CIDR block
 
 Classless Inter-Domain Routing. An internet protocol address allocation and route aggregation methodology.
 See also Classless Inter-Domain Routing in Wikipedia.
+
+### Resource Group
+
+### Network Control List
+
+### Total Cost of Ownership (TCO)
+
+Total cost of ownership (TCO) is an analysis that places a single value on the complete life-cycle of a capital purchase. This value includes every phase of ownership: acquisition, operation, and the softer costs of change management that flows down from acquisition such as documentation and training.
 
 # Acronyms
 

@@ -5,7 +5,7 @@
 - [Types of Cloud Computing / Computing Deployment](#Types-of-Cloud-Computing)
 - [Cloud Computing Models](#Cloud-Computing-Service-Models)
 - [AWS Global Infrastructure](#AWS-Global-Infrastructure)
-- [AWS Well-Architected Framework](#AWS-Well-Architected-Framewor)
+- [AWS Well-Architected Framework](#AWS-Well-Architected-Framework)
 
 
 ## Links
