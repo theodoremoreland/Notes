@@ -1,5 +1,3 @@
-"Cloud computing is the on-demand delivery of compute power, database storage, applications, and other IT resources through a cloud services platform via the Internet with pay-as-you-go pricing." - AWS
-
 ## Sections
 - [AWS Well-Architected Framework](#AWS-Well-Architected-Framewor)
 - [AWS Cloud Adoption Framework](#AWS-Cloud-Adoption-Framework)
