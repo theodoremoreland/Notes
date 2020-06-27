@@ -64,3 +64,9 @@ Strictly places a small group of instances across distinct underlying hardware t
 Spreads your instances across logical partitions such that groups of instances in one partition do not share the underlying hardware with groups of instances in different partitions. This strategy is typically used by large distributed and replicated workloads, such as Hadoop, Cassandra, and Kafka.
 
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html
+
+### Elastic Load Balancers
+
+Classic Load Balancer 
+Network load balancer (operate at layer 4)
+Application load balancer (operates on level 7 only)

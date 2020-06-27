@@ -1,8 +1,18 @@
 ## Sections
 
 - [AWS Shared Responsibility Model](#Shared-Responsibility-of-Model)
+- [AWS Compliance Programs](#Compliance-Programs)
 
 ## Links
+https://aws.amazon.com/compliance/shared-responsibility-model/
+
+# Shared Responsibility Model
+
+https://aws.amazon.com/compliance/shared-responsibility-model/
+
+# Compliance Programs
+
+https://aws.amazon.com/compliance/programs/
 
 The AWS Cloud enables a shared responsibility model. While AWS manages security of the cloud, you are responsible for security in the cloud. This means that you retain control of the security you choose to implement to protect your own content, platform, applications, systems, and networks no differently than you would in an on-site data center.
 AWS provides you with guidance and expertise through online resources, personnel, and partners. AWS provides you with advisories for current issues, plus you have the opportunity to work with AWS when you encounter security issues.
