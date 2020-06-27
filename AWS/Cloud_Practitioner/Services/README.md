@@ -2,34 +2,34 @@
 
 ### Storage
 
-* S3
-* S3 Glacier
+* S3 :gem:
+* S3 Glacier :gem:
 * Elastic Block Storage (EBS)
 * Snowball :office:
 
 ### Database
 
-* RDS
+* RDS :gem:
 * DynamoDB
 * RedShift
 * ElasticCache
 
 ### Compute
 
-* EC2
+* EC2 :gem:
 * Lambda
 * Elastic Beanstalk
 
 ### Networking & Content Delivery
 
 * VPC
-* CloudFront :earth_americas:
+* CloudFront :earth_americas: :gem:
 * Route 53 :earth_americas:
 * Global Accelerator
 
 ### Management & Governance
 
-* AWS Organizations :earth_americas:
+* AWS Organizations :earth_americas: :gem:
 * CloudWatch
 * AWS Auto Scaling
 * CloudFormation
@@ -49,7 +49,7 @@
 
 ### Security, Identity, & Compliance
 
-* IAM :earth_americas:
+* IAM :earth_americas: :gem:
 * Inspector
 * Amazon Macie
 * Key Management Service
