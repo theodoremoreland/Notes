@@ -1,10 +1,27 @@
-Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. 
+# Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. 
+
+## Sections
+- [Free Tier](#Free-Tier)
+- [Five Pricing Models](#Five-Pricing-Models)
+- [Placement Groups](#Placement-Groups)
+- [Auto Scaling Groups](#Auto-Scaling-Groups)
+- [Elastic Loud Balancers](#Elastic-Load-Balancers)
+
+## Links
 
 https://aws.amazon.com/ec2/pricing/
 
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html
 
+
+# Free Tier
+AWS Free Tier includes 750 hours of Linux and Windows t2.micro instances each month for one year. 
+
+https://aws.amazon.com/ec2/pricing/
+
+
 # Five Pricing Models
+
 ### On-Demand
 With On-Demand instances, you pay for compute capacity by the hour or the second depending on which instances you run. No longer-term commitments or upfront payments are needed. 
 
@@ -45,11 +62,6 @@ A Dedicated Host is a physical EC2 server dedicated for your use. Dedicated Host
 * Can be purchased On-Demand (hourly).
 * Can be purchased as a Reservation for up to 70% off the On-Demand price.
 
-# Free Tier
-AWS Free Tier includes 750 hours of Linux and Windows t2.micro instances each month for one year. 
-
-https://aws.amazon.com/ec2/pricing/
-
 # Placement Groups
 
 ## Placement group strategies:
@@ -65,8 +77,14 @@ Spreads your instances across logical partitions such that groups of instances i
 
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html
 
-### Elastic Load Balancers
 
-Classic Load Balancer 
-Network load balancer (operate at layer 4)
-Application load balancer (operates on level 7 only)
+# Auto Scaling Groups
+
+
+# Elastic Load Balancers
+
+### Classic Load Balancer
+
+### Network load balancer (operate at layer 4)
+
+### Application load balancer (operates on level 7 only)
