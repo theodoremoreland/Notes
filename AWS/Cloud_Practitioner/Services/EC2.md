@@ -13,6 +13,8 @@ https://aws.amazon.com/ec2/pricing/
 
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html
 
+https://aws.amazon.com/elasticloadbalancing/
+
 
 # Free Tier
 AWS Free Tier includes 750 hours of Linux and Windows t2.micro instances each month for one year. 
@@ -83,8 +85,24 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html
 
 # Elastic Load Balancers
 
+**Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, and Lambda functions. It can handle the varying load of your application traffic in a single Availability Zone or across multiple Availability Zones.**
+
 ### Classic Load Balancer
 
-### Network load balancer (operate at layer 4)
+Classic Load Balancer provides basic load balancing across multiple Amazon EC2 instances and operates at both the request level and connection level. 
 
-### Application load balancer (operates on level 7 only)
+Classic Load Balancer is intended for applications that were built within the EC2-Classic network.
+
+### Network load balancer
+
+Network Load Balancer is best suited for load balancing of Transmission Control Protocol (TCP), User Datagram Protocol (UDP) and Transport Layer Security (TLS) traffic where extreme performance is required.
+
+Operating at the connection level (Layer 4), Network Load Balancer routes traffic to targets within Amazon Virtual Private Cloud (Amazon VPC) and is capable of handling millions of requests per second while maintaining ultra-low latencies. 
+
+Network Load Balancer is also optimized to handle sudden and volatile traffic patterns.
+
+### Application load balancer
+
+Application Load Balancer is best suited for load balancing of HTTP and HTTPS traffic and provides advanced request routing targeted at the delivery of modern application architectures, including microservices and containers.
+
+Operating at the individual request level (Layer 7), Application Load Balancer routes traffic to targets within Amazon Virtual Private Cloud (Amazon VPC) based on the content of the request.
