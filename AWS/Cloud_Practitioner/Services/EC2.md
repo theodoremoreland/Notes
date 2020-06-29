@@ -87,13 +87,16 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html
 
 **Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, and Lambda functions. It can handle the varying load of your application traffic in a single Availability Zone or across multiple Availability Zones.**
 
-### Classic Load Balancer
+* 504 Error = Application timed out (i.e. didn't respond within the idle time out peroid).
+* X-Forwarded-For header contains IP Address of end users.
+
+## Classic Load Balancer
 
 Classic Load Balancer provides basic load balancing across multiple Amazon EC2 instances and operates at both the request level and connection level. 
 
 Classic Load Balancer is intended for applications that were built within the EC2-Classic network.
 
-### Network load balancer
+## Network load balancer
 
 Network Load Balancer is best suited for load balancing of Transmission Control Protocol (TCP), User Datagram Protocol (UDP) and Transport Layer Security (TLS) traffic where extreme performance is required.
 
@@ -101,7 +104,7 @@ Operating at the connection level (Layer 4), Network Load Balancer routes traffi
 
 Network Load Balancer is also optimized to handle sudden and volatile traffic patterns.
 
-### Application load balancer
+## Application load balancer
 
 Application Load Balancer is best suited for load balancing of HTTP and HTTPS traffic and provides advanced request routing targeted at the delivery of modern application architectures, including microservices and containers.
 
