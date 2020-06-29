@@ -4,15 +4,24 @@
 Estimate the cost for your architecture solution.
 https://calculator.aws/#/
 
-## Service Health Dashboard
-The dashboard provides access to current status and historical data about each and every Amazon Web Service.
-
-https://status.aws.amazon.com/
 
 ## TCO Calculator
 Allows you to estimate the cost savings when using AWS and provide a detailed set of reports that can be used in executive presentations. The calculators also give you the option to modify assumptions that best meet your business needs.
 
 https://aws.amazon.com/tco-calculator/
+
+
+## Service Health Dashboard
+The dashboard provides access to current status and historical data about each and every Amazon Web Service.
+
+https://status.aws.amazon.com/
+
+
+## S3 Transfer Acceleration Tool
+This speed checker uses multipart uploads to transfer a file from your browser to various Amazon S3 regions with and without Amazon S3 Transfer Acceleration. It compares the speed results and shows the percentage difference for every region.
+
+https://s3-accelerate-speedtest.s3-accelerate.amazonaws.com/en/accelerate-speed-comparsion.html
+
 
 ## Marketplace
 

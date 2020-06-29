@@ -4,6 +4,8 @@
 
 ## Links
 
+https://www.aws.training/Details/Curriculum?id=20685
+
 https://aws.amazon.com/architecture/well-architected/
 
 https://aws.amazon.com/blogs/apn/the-5-pillars-of-the-aws-well-architected-framework/
