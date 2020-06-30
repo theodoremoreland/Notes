@@ -6,6 +6,7 @@
 - [Placement Groups](#Placement-Groups)
 - [Auto Scaling Groups](#Auto-Scaling-Groups)
 - [Elastic Loud Balancers](#Elastic-Load-Balancers)
+- [EBS](#EBS)
 
 ## Links
 
@@ -14,6 +15,10 @@ https://aws.amazon.com/ec2/pricing/
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html
 
 https://aws.amazon.com/elasticloadbalancing/
+
+https://aws.amazon.com/ebs/?ebs-whats-new.sort-by=item.additionalFields.postDateTime&ebs-whats-new.sort-order=desc
+
+https://aws.amazon.com/ebs/volume-types/
 
 **can encrpyt root ebs volumes during lauch / config**
 **termination protection is turned off by default, must be manually turned on**
@@ -117,6 +122,49 @@ Network Load Balancer is also optimized to handle sudden and volatile traffic pa
 Application Load Balancer is best suited for load balancing of HTTP and HTTPS traffic and provides advanced request routing targeted at the delivery of modern application architectures, including microservices and containers.
 
 Operating at the individual request level (Layer 7), Application Load Balancer routes traffic to targets within Amazon Virtual Private Cloud (Amazon VPC) based on the content of the request.
+
+# EBS
+Amazon Elastic Block Store (EBS) is an easy to use, high performance block storage service designed for use with Amazon Elastic Compute Cloud (EC2) for both throughput and transaction intensive workloads at any scale. A broad range of workloads, such as relational and non-relational databases, enterprise applications, containerized applications, big data analytics engines, file systems, and media workflows are widely deployed on Amazon EBS.
+
+## Five Types of Storage
+
+### General Purpose SSD (gp2)
+General Purpose SSD volume that balances price performance for a wide variety of transactional workloads
+
+* **Use Cases:** Boot volumes, low-latency interactive apps, dev & test
+* **Volume Size:** 1 GB – 16 TB
+* **Max IOPS**/Volume:** 16,000
+
+### Provisioned IOPS SSD (io1)
+High performance SSD volume designed for latency-sensitive transactional workloads
+
+* **Use Cases:** I/O-intensive NoSQL & relational databases
+* **Volume Size:** 4 GB – 16 TB
+* **Max IOPS*/Volume:** 64,000
+
+### Throughput Optimized Hard Disk Drive (st1)
+Low cost HDD volume designed for frequently accessed, throughput-intensive workloads
+
+* **Use Cases:** Big data, data warehouses, log processing
+* **Volume Size:** 500 GB – 16 TB
+* **Max IOPS**/Volume:** 500
+
+### Cold Hard Disk Drive (sc1)
+Lowest cost HDD volume designed for less frequently accessed workloads
+
+* **Use Cases:** Colder data requiring fewer scans per day
+* **Volume Size:** 500 GB – 16 TB
+* **Max IOPS**/Volume:** 250
+
+### Magnetic (Standard)
+Previous generation SSD
+
+* **Use Cases:** Workloads where data is infrequently accessed
+* **Volume Size:** 1 GiB - 1 TiB
+* **Max IOPS**/Volume:** 40-200
+
+https://aws.amazon.com/ebs/volume-types/
+
 
 Elastic Fabric Adapter
 
