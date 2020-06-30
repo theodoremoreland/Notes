@@ -22,3 +22,5 @@ Objects are timed to TTL (time to live)
 Cached content can be cleared (a.k.a. "invalidating the cache), but you will be charged!
 Invalidating works must like .gitignore files.
 Can take up to an hour to initialize.
+
+Origin Access Identity???
