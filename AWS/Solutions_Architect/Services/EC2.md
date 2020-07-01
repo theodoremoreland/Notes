@@ -95,6 +95,9 @@ Spread placement groups can only have 7 running instances per Availability Zone.
 
 ### Partition
 Spreads your instances across logical partitions such that groups of instances in one partition do not share the underlying hardware with groups of instances in different partitions. This strategy is typically used by large distributed and replicated workloads, such as Hadoop, Cassandra, and Kafka.
+**EC2s of this placement group can be spread across multiple AZs.**
+Partitions are similar to Spreads with the key distinction being that Spreads apply to individual instances, wheras Partitions apply to groups of instances.
+
 
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html
 
