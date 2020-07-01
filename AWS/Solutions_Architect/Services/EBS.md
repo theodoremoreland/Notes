@@ -2,6 +2,10 @@
 
 **on ebs backed instance, default behavior is to delete the ebs volume upon ec2 termination, but not additional volumes by default**
 
+**EBS Snapshots are backed up to S3 incrementally**
+
+To delete an EBS Snapshot attached to a registered AMI, first remove the AMI, then the snapshot can be deleted
+
 # Five Types of Storage
 
 ### General Purpose SSD (gp2)

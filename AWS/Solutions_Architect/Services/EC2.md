@@ -7,6 +7,7 @@
 - [Auto Scaling Groups](#Auto-Scaling-Groups)
 - [Elastic Loud Balancers](#Elastic-Load-Balancers)
 - [EC2 Hibernate](#EC2-Hibernate)
+- [Enhanced Networking](#Enhanced-Networking)
 
 ## Links
 
@@ -23,6 +24,7 @@ https://aws.amazon.com/ebs/volume-types/
 **can encrpyt root ebs volumes during lauch / config**
 **termination protection is turned off by default, must be manually turned on**
 **on ebs backed instance, default behavior is to delete the ebs volume upon ec2 termination, but not additional volumes by default**
+**AWS originally used a modified version of the Xen Hypervisor to host EC2. In 2017, AWS began rolling out their own Hypervisor called Nitro**
 
 # Free Tier
 AWS Free Tier includes 750 hours of Linux and Windows t2.micro instances each month for one year. 
@@ -57,6 +59,8 @@ Reserved Instance Types:
 * **Convertible** (Up to 54% off, allows flexbility of instance types of equal or greater value)
 * **Scheduled** (Reserve a fraction of a day/week/month)
 
+Standard Reserved Instances cannot be moved between regions.
+
 Reserved Instances are recommended for:
 
 * Applications with steady state usage
@@ -81,10 +85,12 @@ A Dedicated Host is a physical EC2 server dedicated for your use. Dedicated Host
 
 ## Placement group strategies:
 ### Cluster
-Packs instances close together inside an Availability Zone. This strategy enables workloads to achieve the low-latency network performance necessary for tightly-coupled node-to-node communication that is typical of HPC applications.
+Packs instances close together inside an Availability Zone. This strategy enables workloads to achieve the low-latency network performance necessary for tightly-coupled node-to-node communication that is typical of HPC applications. EC2s of this placement group can **NOT** be spread across multiple AZs.
 
 ### Spread
 Strictly places a small group of instances across distinct underlying hardware to reduce correlated failures.
+**EC2s of this placement group can be spread across multiple AZs.**
+Spread placement groups can only have 7 running instances per Availability Zone.
 
 
 ### Partition
@@ -124,5 +130,13 @@ Application Load Balancer is best suited for load balancing of HTTP and HTTPS tr
 Operating at the individual request level (Layer 7), Application Load Balancer routes traffic to targets within Amazon Virtual Private Cloud (Amazon VPC) based on the content of the request.
 
 # EC2 Hibernate
+
+# Enhanced Networking
+
+## EFI
+
+## ENA
+
+## EFA
 
 https://aws.amazon.com/ec2/faqs/
