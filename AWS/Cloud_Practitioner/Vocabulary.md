@@ -55,6 +55,13 @@ https://www.ibm.com/support/knowledgecenter/SSPHQG_7.2/concept/ha_concepts_fault
 
 ### Resource Group Vs Placement Group
 
+* A resource group is a collection of AWS resources that are all in the same AWS region, and that match criteria provided in a query (e.g. a query based on tags or a query based on a CloudFormation stack). 
+
+https://docs.aws.amazon.com/ARG/latest/userguide/welcome.html
+
+* When you launch a new EC2 instance, the EC2 service attempts to place the instance in such a way that all of your instances are spread out across underlying hardware to minimize correlated failures. You can use placement groups to influence the placement of a group of interdependent instances to meet the needs of your workload.
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html
 
 # Acronyms
 
