@@ -119,6 +119,10 @@ Classic Load Balancer provides basic load balancing across multiple Amazon EC2 i
 
 Classic Load Balancer is intended for applications that were built within the EC2-Classic network.
 
+Sticky Sessions are intended to cause a session to always return to the same underlying web server. However in certain circumstances with long running sessions this can cause load to be unevenly distributed. 
+
+If cross zone is not enabled all traffic will stay on the nodes in the one AZ, which might have the same effect.
+
 ## Network load balancer
 
 Network Load Balancer is best suited for load balancing of Transmission Control Protocol (TCP), User Datagram Protocol (UDP) and Transport Layer Security (TLS) traffic where extreme performance is required.
