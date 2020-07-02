@@ -8,6 +8,7 @@
 - [Elastic Loud Balancers](#Elastic-Load-Balancers)
 - [EC2 Hibernate](#EC2-Hibernate)
 - [Enhanced Networking](#Enhanced-Networking)
+- [AMI]
 
 ## Links
 
@@ -141,5 +142,8 @@ Operating at the individual request level (Layer 7), Application Load Balancer r
 ## ENA
 
 ## EFA
+
+# AMI
+The AMIs must be copied to the new Region prior to deployment
 
 https://aws.amazon.com/ec2/faqs/

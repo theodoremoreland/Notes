@@ -1,0 +1,1 @@
+Breaking large complex builds into sections gives you the advantage of being able to reuse common templates patterns with a known and proven configuration, plus being able to share responsibility to SME for their portion of the architecture.

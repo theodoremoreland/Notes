@@ -123,9 +123,10 @@ Tentative cap of 20 linked accounts
 # Support Plans
 
 All support plans include:
-* 24x7 access to customer service, documentation, whitepapers, and support forums.
+* 24x7 access to customer service (not a case type), documentation, whitepapers, and support forums.
 * AWS Trusted Advisor
 * AWS Personal Health Dashboard
+* Cases for Service limit increase and Account and Billing
 
 ### Basic
 
