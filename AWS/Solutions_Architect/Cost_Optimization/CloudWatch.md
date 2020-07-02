@@ -7,3 +7,4 @@ running smoothly."
 * Create Dashboards to visualize metrics.
 * Events allow you to respond to state changes.
 * Logs allows you to aggregate, monitor, and store logs.
+* Monitors CPU Usage, Networking, and Queue size. Can NOT monitor memory utilization.

@@ -4,6 +4,8 @@
 
 **EBS Snapshots are backed up to S3 incrementally**
 
+**EBS volumes are replicated to another AZ automatically**
+
 To delete an EBS Snapshot attached to a registered AMI, first remove the AMI, then the snapshot can be deleted
 
 # Five Types of Storage
