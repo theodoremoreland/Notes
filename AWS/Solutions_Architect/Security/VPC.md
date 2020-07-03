@@ -21,6 +21,7 @@ https://aws.amazon.com/vpc/faqs/
     aws reserves 5 ip addresses automatically per subnet
     you can have 1 internet gateway per vpc
     security groups can't span vpcs
+    5 vpcs allowed per region
 
 ## Nat Instances
     disable source / destination check
