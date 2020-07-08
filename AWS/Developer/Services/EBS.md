@@ -55,4 +55,6 @@ https://aws.amazon.com/ebs/volume-types/
 * Both (EBS and Instance Store) root volumes will be deleted on termination of EC2 by default, but with EBS backed instances, you can configure it such that AWS saves the EBS volume.
 
 # Snapshots
-You can back up the data on your Amazon EBS volumes to Amazon S3 by taking point-in-time snapshots. Snapshots are constrained to the Region in which they were created. To share a snapshot with another Region, copy the snapshot to that Region
+You can back up the data on your Amazon EBS volumes to Amazon S3 by taking point-in-time snapshots. Snapshots are constrained to the Region in which they were created. To share a snapshot with another Region, copy the snapshot to that Region.
+
+EBS volumes created from Snapshots will inherit the encryption of the Snapshot (i.e. it won't be encrypted if the Snapshot wasn't encrypted)
