@@ -16,3 +16,7 @@ Monitoring of
 
 
 # Axioms
+* Always check security groups and network access control lists when troubleshooting
+* Instances launched into a private subnet in a VPC can't properly communicate with the Internet unless you use NAT
+* You need an IGW and a route in the route table to talk to the internet
+* EBS vloumes are loosely couple to EC2 instances; can attach/detach except for the boot volume

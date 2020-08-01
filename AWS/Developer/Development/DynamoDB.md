@@ -5,6 +5,8 @@
 - DynamoDB Streams
 - DynamoDB Accelerator
 - Global Tables
+- Auto Scaling Triggers
+- Keys
 
 ## Links
 
